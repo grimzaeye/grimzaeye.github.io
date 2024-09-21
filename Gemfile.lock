@@ -120,7 +120,7 @@ DEPENDENCIES
   jekyll-include-cache
   jekyll-paginate
   jekyll-sitemap
-  minimal-mistakes-jekyll (~> 4.26.0)
+  minimal-mistakes-jekyll (~> 4.26.2)
 
 BUNDLED WITH
    2.5.19

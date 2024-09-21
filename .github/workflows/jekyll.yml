@@ -3,7 +3,7 @@ name: Jekyll site CI
 on:
   push:
     branches:
-      - main
+      - main  # 사용 중인 브랜치 이름으로 변경하세요.
 
 jobs:
   build:
@@ -11,28 +11,20 @@ jobs:
     permissions:
       contents: write  # Actions에 쓰기 권한 부여
     steps:
-    - uses: actions/checkout@v3
+      - uses: actions/checkout@v3
 
-    - name: Setup Ruby
-      uses: ruby/setup-ruby@v1
-      with:
-        ruby-version: 3.1
+      - name: Setup Ruby
+        uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: '3.1'
+          bundler-cache: true  # Bundler 캐시 활성화
 
-    - name: Update RubyGems
-      run: gem update --system
+      - name: Build the site
+        run: bundle exec jekyll build
 
-    - name: Install Bundler
-      run: gem install bundler
-
-    - name: Install dependencies
-      run: bundle install
-
-    - name: Build the site
-      run: bundle exec jekyll build
-
-    - name: Deploy to GitHub Pages
-      uses: peaceiris/actions-gh-pages@v3
-      with:
-        github_token: ${{ secrets.GITHUB_TOKEN }}
-        publish_dir: ./_site
-        publish_branch: gh-pages
+      - name: Deploy to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./_site
+          publish_branch: gh-pages  # 배포할 브랜치 이름

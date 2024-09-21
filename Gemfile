@@ -2,7 +2,7 @@ source "https://rubygems.org"
 
 
 gem "jekyll", "~> 4.3.2"
-gem "minimal-mistakes-jekyll", "~> 4.26.0"
+gem "minimal-mistakes-jekyll", "~> 4.26.2"
 gem "jekyll-archives"
 gem "faraday-retry"
 gem "jekyll-paginate"
