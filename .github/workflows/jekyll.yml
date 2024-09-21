@@ -36,9 +36,12 @@ jobs:
   deploy:
     needs: build-deploy
     runs-on: ubuntu-latest
+    environment:
+    name: github-pages  # 환경 이름 지정
     permissions:
       pages: write
       id-token: write
     steps:
       - name: Deploy to GitHub Pages
+        id: deployment
         uses: actions/deploy-pages@v1
