@@ -3,7 +3,7 @@ name: Jekyll site CI
 on:
   push:
     branches:
-      - main
+      - main  # 사용 중인 브랜치 이름으로 변경하세요.
 
 jobs:
   build-deploy:
@@ -11,10 +11,10 @@ jobs:
     permissions:
       contents: read
       id-token: write
-      pages: write
+      pages: write  # pages 권한 추가
     steps:
       - name: Checkout
-        uses: actions/checkout@v4
+        uses: actions/checkout@v4  # 버전 업데이트 (v3 -> v4)
 
       - name: Setup Ruby
         uses: ruby/setup-ruby@v1
@@ -29,19 +29,31 @@ jobs:
         run: bundle exec jekyll build
 
       - name: Upload artifact
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v4  # 버전 업데이트 (v3 -> v4)
         with:
-          name: github-pages
+          name: github-pages  # 아티팩트 이름 지정
           path: ./_site
 
   deploy:
     needs: build-deploy
     runs-on: ubuntu-latest
     environment:
-      name: github-pages
+      name: github-pages  # 환경 이름 지정
+      url: ${{ steps.deployment.outputs.page_url }}  # 사이트 URL 지정 (선택 사항)
     permissions:
       pages: write
       id-token: write
     steps:
+      - name: Checkout
+        uses: actions/checkout@v4  # 버전 업데이트 (v3 -> v4)
+
+      - name: Download artifact
+        uses: actions/download-artifact@v4  # 버전 업데이트 및 다운로드 액션 추가
+        with:
+          name: github-pages  # 업로드한 아티팩트 이름과 동일하게 지정
+          path: ./github-pages  # 다운로드할 경로 지정
+
       - name: Deploy to GitHub Pages
-        uses: actions/deploy-pages@v2
+        uses: actions/deploy-pages@v2  # 버전 업데이트
+        with:
+          folder: ./github-pages  # 배포할 폴더 지정
