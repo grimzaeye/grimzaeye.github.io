@@ -14,12 +14,16 @@ jobs:
     - name: Setup Ruby
       uses: ruby/setup-ruby@v1
       with:
-        ruby-version: 3.1.0 # Jekyll이 요구하는 Ruby 버전
+        ruby-version: 3.1
+
+    - name: Update RubyGems
+      run: gem update --system
+
+    - name: Install Bundler
+      run: gem install bundler
 
     - name: Install dependencies
-      run: |
-        gem install bundler
-        bundle install
+      run: bundle install
 
     - name: Build the site
       run: bundle exec jekyll build
