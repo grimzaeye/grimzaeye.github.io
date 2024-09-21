@@ -46,7 +46,7 @@ jobs:
       name: github-pages
     steps:
       - name: Deploy to GitHub Pages
-        uses: actions/deploy-pages@v2.0.0
+        uses: actions/deploy-pages@v2
         with:
           artifact_name: github-pages  # 업로드한 아티팩트 이름 지정
           token: ${{ secrets.GITHUB_TOKEN }}  # GITHUB_TOKEN 명시적으로 지정
