@@ -1,0 +1,38 @@
+# main links
+main:
+  - title: "HOME"
+    url: /
+  - title: "ABOUT"
+    url: /about/
+  - title: "PROJECTS"
+    url: /projects/
+    subcategories: 
+      - title: "Research"
+        url: /projects/research/
+      - title: "Arts"
+        url: /projects/arts/
+      - title: "Media"
+        url: /projects/
+  - title: "NEWS"
+    url: /news/
+  - title: "CONTACT"
+    url: /contact/
+    url: /contact/
+  - title: "BLOG"
+    url: https://medium.com/@grimzaeye
+
+sidebar-category:
+  - title: "Categories"
+    children:
+      - title: "Research"
+        url: /projects/research/
+      - title: "Arts"
+        url: /projects/arts/
+        
+news:
+  - title: "NEWS"
+    children:
+      - title: "2024"
+        url: /news/
+      - title: "2023"
+        url: /news/

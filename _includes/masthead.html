@@ -1,0 +1,69 @@
+{% capture logo_path %}{{ site.logo }}{% endcapture %}
+
+<div class="masthead">
+  <div class="masthead__inner-wrap">
+    <div class="masthead__menu">
+      <nav id="site-nav" class="greedy-nav">
+        {% unless logo_path == empty %}
+          <a class="site-logo" href="{{ '/' | relative_url }}"><img src="{{ logo_path | relative_url }}" alt="{{ site.masthead_title | default: site.title }}"></a>
+        {% endunless %}
+        <a class="site-title" href="{{ '/' | relative_url }}">
+          {{ site.masthead_title | default: site.title }}
+          {% if site.subtitle %}<span class="site-subtitle">{{ site.subtitle }}</span>{% endif %}
+        </a>
+
+        {% comment %} 수정시작 {% endcomment %}
+
+        <ul class="visible-links">
+          {%- for link in site.data.navigation.main -%}
+         
+          {% comment %} Active current page menu {% endcomment %}
+          {% assign class = nil %}
+          {% if page.url == link.url %}
+            {% assign class = "active" %}
+          {% endif %}
+
+          {% comment %} dropdown menu {% endcomment %}
+          {% comment %} Check if the link has a dropdown menu {% endcomment %}
+          <li class="masthead__menu-item {% if link.subcategories %} has-dropdown {% endif %}"> 
+            <a
+              href="{{ link.url | relative_url }}"
+              {% if link.description %} title="{{ link.description }}"{% endif %}
+              {% if link.target %} target="{{ link.target }}"{% endif %}
+              class="{{ class }}"
+            >{{ link.title }}</a>
+
+            {% comment %} dropdown menu {% endcomment %}
+            {% if link.subcategories %}
+              <ul class="dropdown-menu"> 
+                {%- for subcategory in link.subcategories -%}
+                  <li class="dropdown-menu__item">
+                    <a
+                      href="{{ subcategory.url | relative_url }}"
+                    >{{ subcategory.title }}</a>
+                  </li>
+                {%- endfor -%}
+              </ul>
+            {% endif %}
+          </li>
+          {%- endfor -%}
+
+          <a class="search_icon" href="/search/">
+            <i class="fas fa-search"></i>
+          </a>
+        </ul>
+        {% if site.search == true %}
+        <a class="search__toggle" href="/search/">
+          <span class="visually-hidden">{{ site.data.ui-text[site.locale].search_label | default: "Toggle search" }}</span>
+          <i class="fas fa-search"></i>
+        </a>
+        {% endif %}
+        <button class="greedy-nav__toggle hidden" type="button">
+          <span class="visually-hidden">{{ site.data.ui-text[site.locale].menu_label | default: "Toggle menu" }}</span>
+          <div class="navicon"></div>
+        </button>
+        <ul class="hidden-links hidden"></ul>
+      </nav>
+    </div>
+  </div>
+</div>

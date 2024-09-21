@@ -1,0 +1,34 @@
+---
+layout: default
+---
+
+{% if page.header.overlay_color or page.header.overlay_image or page.header.image %}
+  {% include page__hero.html %}
+{% elsif page.header.video.id and page.header.video.provider %}
+  {% include page__hero_video.html %}
+{% endif %}
+
+{% assign breadcrumbs_enabled = site.breadcrumbs %}
+{% if page.breadcrumbs != null %}
+  {% assign breadcrumbs_enabled = page.breadcrumbs %}
+{% endif %}
+{% if page.url != "/" and breadscrumbs_enabled %}
+  {% unless paginator %}
+    {% include breadcrumbs.html %}
+  {% endunless %}
+{% endif %}
+
+<div id="main" role="main">
+  <!-- 사이드바가 비활성화되어 있지 않다면 -->
+  {% if page.sidebar.enable != false %} 
+    {% include sidebar.html %}
+  {% endif %}
+
+  <!-- 사이드바 활성화 여부에 따라 클래스를 추가 -->
+  <div class="archive {% if page.sidebar.enable == false %}no-sidebar{% endif %}">
+    {% unless page.header.overlay_color or page.header.overlay_image %}
+      <h1 id="page-title" class="page__title"{% if page.locale %} lang="{{ page.locale }}"{% endif %}>{{ page.title }}</h1>
+    {% endunless %}
+    {{ content }}
+  </div>
+</div>
