@@ -29,8 +29,9 @@ jobs:
         run: bundle exec jekyll build
 
       - name: Upload artifact
-        uses: actions/upload-pages-artifact@v1  # 현재 최신 버전
+        uses: actions/upload-artifact@v4  # 변경된 부분
         with:
+          name: github-pages  # 아티팩트 이름 지정
           path: ./_site
 
   deploy:
@@ -43,4 +44,6 @@ jobs:
       name: github-pages
     steps:
       - name: Deploy to GitHub Pages
-        uses: actions/deploy-pages@v2  # 최신 버전
+        uses: actions/deploy-pages@v2
+        with:
+          artifact_name: github-pages  # 업로드한 아티팩트 이름 지정
