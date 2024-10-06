@@ -22,12 +22,12 @@ pagenator: false
 
 
 ## BIO
-  
-![profile_image] (/assets/images/profile2.jpg) {: .image-large}
+
+![profile_image](/assets/images/profile2.jpg){: .image-large}
 
 
 <figure style="width: 300px" class="align-right">
-  <img src="{{ site.url }}/assets/images/profile2.jpg" alt="">
+  <img src="/assets/images/profile2.jpg" alt="">
   <figcaption>Feels good to be right all the time.</figcaption>
 </figure> 
 

@@ -20,6 +20,7 @@ Feel free to drop me an email!
 
 > Email : [grimzaeye@gmail.com](mailto:grimzaeye@gmail.com)
 
+![test image] (/assets/images/profile2.jpg) {: .image-large}
 <!-- 
 <form ic="contact-form">
     <div class ="form-group">
