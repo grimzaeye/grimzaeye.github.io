@@ -10,7 +10,6 @@ gallery:
   - url: /assets/images/press_공연과이론2017.jpg
     image_path: /assets/images/press_공연과이론2017.jpg
     alt: "Magazine cover_공연과이론2017"
-
   - url: /assets/images/press_공연과이론2019.png
     image_path: /assets/images/press_공연과이론2019.png
     alt: "article_공연과이론 2019"
@@ -25,6 +24,7 @@ pagenator: false
 ## BIO
   
   ![image-left]({{ site.url }}{{ site.baseurl }}/assets/images/profile2.jpg){: .image-large}
+  
   Semi majored in aesthetics at Seoul National University and has done M.F.A in theater directing at Korea National University of Arts. She wrote and directed \<The Cape\> and directed \<The Bot\> and \<Samba Dees Days\>. She is a co-creator and dramaturg of the theatre group: Aurora of the Desert Star and created the series \<Makeup To Wake Up 1, 2\>, \<The Happiness of the Walker\> and \<Dust\>. She worked on art programs \<Doodling Project on the Road\> (2014) for out-of-school youth and \<Feminism Walking on the Stage\> (2006) for female performers.
   She was a manager of Media Center MediAct‘s strategy team and worked to cultivate local community media and support participants(2017-2022) and she iscurrently an editorial member of the Indie & Impact Media Lab. 
   Her main interests are How gender, minority, and abnormality are performed on the stage, and she intends to expand the audience’s experience through combining new media technology and theater.  She is pursuing a Master’s degree in Art & Technology at Sogang University.
