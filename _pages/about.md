@@ -23,7 +23,7 @@ pagenator: false
 
 ## BIO
   
-![profile_image]({{ site.url }}/assets/images/profile2.jpg){: .image-large}
+![profile_image] (/assets/images/profile2.jpg) {: .image-large}
 
 
 <figure style="width: 300px" class="align-right">
