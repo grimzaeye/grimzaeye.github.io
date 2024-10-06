@@ -20,23 +20,22 @@ Feel free to drop me an email!
 
 > Email : [grimzaeye@gmail.com](mailto:grimzaeye@gmail.com)
 
-![test image] (/assets/images/profile2.jpg) {: .image-large}
 <!-- 
-<form ic="contact-form">
-    <div class ="form-group">
-    <label for="name">Name</label>
-    <input class="form-control" type="text" id="name" name="name" required>
-    </div>
-    <div class ="form-group">
-    <label for="email">Email</label>
-    <input class="form-control" type="email" id="email" name="email" required>
-    </div>
-    <div class ="form-group">
-    <label for="message">Message</label>
-    <textarea class="form-control" id="message" name="message" rows ="6" required></textarea>
-    </div>
-    <div class = "contact-btn">
-      <button class="btn" type="submit">Send Message</button>
-    </div>
-</form> 
+  <form ic="contact-form">
+      <div class ="form-group">
+      <label for="name">Name</label>
+      <input class="form-control" type="text" id="name" name="name" required>
+      </div>
+      <div class ="form-group">
+      <label for="email">Email</label>
+      <input class="form-control" type="email" id="email" name="email" required>
+      </div>
+      <div class ="form-group">
+      <label for="message">Message</label>
+      <textarea class="form-control" id="message" name="message" rows ="6" required></textarea>
+      </div>
+      <div class = "contact-btn">
+        <button class="btn" type="submit">Send Message</button>
+      </div>
+  </form> 
 -->
