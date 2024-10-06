@@ -25,7 +25,7 @@ gallery:
     alt: "placeholder image 3"
 header:
   teaser: /assets/images/unsplash-gallery-image-1-th.jpg
-
+hidden: true
 
 ---
 

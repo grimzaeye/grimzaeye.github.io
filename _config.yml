@@ -31,7 +31,7 @@ masthead_title           : "ssems" # overrides the website title displayed in th
 breadcrumbs              : # true, false (default)
 words_per_minute         : 200
 enable_copy_code_button  : true # true, false (default)
-copyright                : "SsemS All Rights Reserved." # "copyright" name, defaults to site.title
+copyright                : "SsemS All Rights Reserved" # "copyright" name, defaults to site.title
 copyright_url            : # "copyright" URL, defaults to site.url
 comments:
   provider               : # false (default), "disqus", "discourse", "facebook", "staticman", "staticman_v2", "utterances", "giscus", "custom"
@@ -362,10 +362,14 @@ collections:
   projects:
     output: true
     permalink: /:collection/:path/
+    sort_by: date
+    order: reverse
     
   news:
     output: true
     permalink: /news/:title/
+    sort_by: date
+    order: reverse
 
 # Categories
 category:

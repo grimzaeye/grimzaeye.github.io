@@ -25,6 +25,7 @@ header:
   teaser: /assets/images/unsplash-gallery-image-1-th.jpg
 category: arts
 tags: stupid
+hidden: true
 ---
 
 

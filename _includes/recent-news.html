@@ -1,0 +1,15 @@
+<!-- recent-posts.html -->
+
+<div class="recent-posts">
+  <h2>News</h2>
+  <ul>
+    {% for post in site.news limit: 3 | sort: "date" | reverse %}
+      <li>
+        <p class="post-date">{{ post.date | date: "%B %d, %Y" }}</p> 
+        <h3><a href="{{ post.url }}" class="post-title">{{ post.title }}</a> </h3>
+        <p class="post-excerpt">{{ post.excerpt | strip_html | truncate: 150 }}</p> 
+      </li>
+    {% endfor %}
+  </ul>
+</div> 
+

@@ -1,6 +1,6 @@
 ---
 layout: collection-category
-title: "Project-test"
+title: "Art Project"
 collection: projects
 permalink: /projects/arts
 # header:
@@ -15,6 +15,7 @@ permalink: /projects/arts
 # excerpt: "Bacon ipsum dolor sit amet salami ham hock ham, hamburger corned beef short ribs kielbasa biltong t-bone drumstick tri-tip tail sirloin pork chop."
 sidebar:
   enable: true
+  title: ''
   nav: "sidebar-category"
 
 entries_layout: grid

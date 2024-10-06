@@ -13,7 +13,7 @@ sidebar:
 classes: wide
 ---
 
-Sample document listing for the collection `_recipes`.
+A Collection of Recent News and Reflections `(In Progress)`.
 <div>
   {% assign entries_layout = page.entries_layout | default: 'list' %}
   {% assign postsByYear = site.news | where_exp: "item", "item.hidden != true" | group_by_exp: 'post', 'post.date | date: "%Y"' %}

@@ -17,9 +17,9 @@ main:
     url: /news/
   - title: "CONTACT"
     url: /contact/
-    url: /contact/
-  - title: "BLOG"
+  - title: "BLOG↗︎"
     url: https://medium.com/@grimzaeye
+    target: _blank
 
 sidebar-category:
   - title: "Categories"

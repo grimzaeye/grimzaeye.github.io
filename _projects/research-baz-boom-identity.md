@@ -26,7 +26,7 @@ header:
 # collection : projects
 category: research
 layout: single
-
+hidden: true
 ---
 
 {{post.type}}

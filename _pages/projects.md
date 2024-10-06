@@ -20,4 +20,4 @@ grid_number: 3
 related: true
 breadscrumbs: false
 ---
-Sample document listing for the collection `_portfolio`.
+Archiving of Art and Research Projects `(In Progress)`

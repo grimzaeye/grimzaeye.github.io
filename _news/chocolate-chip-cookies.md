@@ -2,6 +2,7 @@
 title: "Chocolate Chip Cookies"
 classes: wide
 date: 2023-04-11
+hidden: true
 ---
 A chocolate chip cookie is a drop cookie that originated in the United States and features chocolate chips as its distinguishing ingredient.
 

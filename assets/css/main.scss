@@ -19,17 +19,47 @@ search: false
 }
 
 $font-primary: 'Montserrat', sans-serif;
-$font-secondary: 'Merriweather', serif;
+$font-secondary: 'NanumMyeongjo', serif;
 $border-radius-base:  4px;
 $brand-primary: #52D681;
 $brand-secondary: #118DF0; 
-$brand-special: #52D681;
+$brand-special: #00a651;
+
+
 
 $brand-white: #fff;
 $brand-black: #000;
 $grid_number: 4 !default; /* 그리드 수를 4로 설정 */
 $footer-background-color : #262626;
 
+$gray-base:              #000 !default;
+$gray-darker:            mix($gray-base,$brand-white, 13.5%) !default; // #222
+$gray-dark:              mix($gray-base,$brand-white, 20%) !default;   // #333
+$gray:                   mix($gray-base,$brand-white, 33.5%) !default; // #555
+$gray-light:             mix($gray-base,$brand-white, 46.7%) !default; // #777
+$gray-lighter:           mix($gray-base, $brand-white,93.5%) !default; // #eee
+
+
+/* type scale */
+$type-size-0: 3.052em !default; // ~48.832px
+$type-size-1: 2.441em !default; // ~39.056px
+$type-size-2: 1.953em !default; // ~31.248px
+$type-size-3: 1.563em !default; // ~25.008px
+$type-size-4: 1.25em !default; // ~20px
+$type-size-5: 1em !default; // ~16px
+$type-size-6: 0.75em !default; // ~12px
+$type-size-7: 0.6875em !default; // ~11px
+$type-size-8: 0.625em !default; // ~10px
+
+/* headline scale */
+// $h-size-1: 2.881em !default; // ~39.056px
+$h-size-1: 4.4em !default; // ~39.056px
+$h-size-2: 1.563em !default; // ~25.008px
+$h-size-3: 1.25em !default; // ~20px
+$h-size-4: 1.125em !default; // ~18px
+$h-size-5: 1.0625em !default; // ~17px
+$h-size-6: 20px !default; // ~16.5px
+$h-size-7: 1em !default; // ~16px
 
 /*
 Breakpoints
@@ -45,7 +75,7 @@ $max-width: $x-large !default;
 // $info-color: #3b9cba !default;
 
 
-$link-color: $brand-primary !default;
+$link-color: $brand-special !default;
 $link-color-hover: #000 !default;
 $link-color-visited: #000 !default;
 $masthead-link-color: $primary-color !default;
@@ -62,6 +92,58 @@ $border-radius: 2px !default;
 $box-shadow: 0 4px 5px 0px rgba(0, 0, 0, 0.125) !default;
 $nav-height: 1em !default;
 $nav-toggle-height: 2rem !default;
+
+
+$line-height-base:        1.428571429 !default; // 20/14
+$font-size-base:          14px !default; // ~14px
+$line-height-computed:    floor(($font-size-base * $line-height-base)) !default; // ~20px
+//== Forms
+
+//** `<input>` background color
+$input-bg:                       #fff !default;
+//** `<input disabled>` background color
+$input-bg-disabled:              $gray-lighter !default;
+
+//** Text color for `<input>`s
+$input-color:                    $gray !default;
+//** `<input>` border color
+$input-border:                   #ccc !default;
+
+// TODO: Rename `$input-border-radius` to `$input-border-radius-base` in v4
+//** Default `.form-control` border radius
+// This has no effect on `<select>`s in some browsers, due to the limited stylability of `<select>`s in CSS.
+$input-border-radius:            $border-radius !default;
+//** Large `.form-control` border radius
+$input-border-radius-large:      $border-radius !default;
+//** Small `.form-control` border radius
+$input-border-radius-small:      $border-radius !default;
+
+//** Border color for inputs on focus
+$input-border-focus:             #66afe9 !default;
+
+//** Placeholder text color
+$input-color-placeholder:        #999 !default;
+
+//** Default `.form-control` height
+$input-height-base:              20 !default;
+
+//** `.form-group` margin
+$form-group-margin-bottom:       15px !default;
+
+$legend-color:                   $gray-dark !default;
+$legend-border-color:            #e5e5e5 !default;
+
+//** Background color for textual input addons
+$input-group-addon-bg:           $gray-lighter !default;
+//** Border color for textual input addons
+$input-group-addon-border-color: $input-border !default;
+
+//** Disabled cursor for form controls and buttons.
+$cursor-disabled:                not-allowed !default;
+
+
+
+
 /* =======================================================
 *
 * 	Template Style 
@@ -73,6 +155,7 @@ body {
   font-size: 16px;
   line-height: 1.7;
   color: #777;
+  // color: #555;
   background: #fff;
 }
 
@@ -90,7 +173,7 @@ body {
 /* links */
 
 a {
-  color: #52D681;
+  color: $brand-special;
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
   transition: 0.5s;
@@ -101,7 +184,7 @@ a {
   }
 
   &:visited {
-    color: $brand-primary;
+    color: $brand-special;
   }
 
   &:hover {
@@ -110,12 +193,6 @@ a {
     outline: 0;
   }
 }
-
-// a:hover, a:active, a:focus {
-//   color: #000;
-//   outline: none;
-//   // text-decoration: none;
-// }
 
 p {
   margin-bottom: 20px;
@@ -126,9 +203,30 @@ h1, h2, h3, h4, h5, h6, figure {
   color: #000;
   font-family: $font-primary;
   font-weight: 400;
-  margin: 0 0 20px 0;
+  margin: 1em 0 0.5em;
+  text-decoration: none;
 }
 
+h1 {
+  margin-top: 0;
+  // font-size: $h-size-1;
+  // font-size: 4.441em;
+}
+
+h4, h6{
+  font-weight: bold;
+}
+
+summary {
+  font-size: 1.1em;
+  font-family: $font-primary;
+  // font-weight: bold;
+  color: #555;
+}
+
+.bold {
+  font-weight: bold;
+}
 
 // ======== 페이지 타이틀 글자 크기 설정
 .page__title{
@@ -256,6 +354,14 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 
 
+//Page contents
+.page__content {
+  & h2 {
+    border-bottom: none;
+
+  }
+}
+
 // 드롭다운 메뉴
 
 .masthead__menu-item.has-dropdown {
@@ -376,10 +482,18 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 
 
-//=========== breadcrumb 간격 ============
-
-
-
+.page__title a:visited{
+  color: #000;
+}
+.page__content {
+  a.recent-project:not(.btn) {
+    &:hover {
+      text-decoration: none;
+      color: $brand-special;
+    }
+  }
+  
+}
 
 // ==============메인 페이지 중간 제목 heading ==============
 .gtco-heading h2 {
@@ -437,12 +551,6 @@ h1, h2, h3, h4, h5, h6, figure {
     transform: translateY(-5px); /* 호버 시 살짝 올라가는 효과 */
   }
   
-  // .archive__item-teaser img {
-  //   width: 100%;
-  //   height: auto;
-  //   object-fit: cover;
-  // }
-  
   .archive__item-teaser {
     position: relative;
     border-radius: $border-radius;
@@ -463,21 +571,17 @@ h1, h2, h3, h4, h5, h6, figure {
   }
 
   .archive__item-title {
-    font-size: 1rem;
+    font-size: .85rem;
     font-family: "Montserrat", sans-serif;
     margin: 15px 0 0px;
   }
   
   .archive__item-excerpt {
-    color: #666;
-    font-size: 0.6rem;
+    color: #777;
+    font-size: 0.65rem;
     margin-bottom: 15px;
   }
   
-  .archive__item-excerpt {
-    font-size: 15px;
-    color: #bfbfbf
-  }
 }
 
 
@@ -623,6 +727,16 @@ a:hover, a:focus, a:active {
   }
 }
 
+//======= Sidebar =========
+.nav__sub-title {
+  font-weight: normal;
+
+}
+.sidebar.sticky {
+  padding-top: 40px;
+}
+
+
 // breadcrumb location
 .breadcrumbs.no-sidebar {
   ol {
@@ -740,6 +854,12 @@ a:hover, a:focus, a:active {
   }
 }
 
+.grid__item .archive__item-excerpt,
+.archive__item-excerpt {
+  display: block;
+  font-size: .9em;
+  color:#555;
+}
 
 //============= Footer ==============
 
@@ -748,6 +868,7 @@ a:hover, a:focus, a:active {
   // float: inline-start;
   float: left;
   margin: 0;
+  margin-top:20px;
   // margin-inline: 0;
   width: 100%;
   color: $muted-text-color;
@@ -838,4 +959,101 @@ a:hover, a:focus, a:active {
   .footer-grid {
     grid-template-columns: 1fr; /* 1칸으로 변경 */
   }
+}
+
+.align-left {
+
+  padding-right: 30px; 
+}
+
+.align-right {
+  padding-left: 30px;
+}
+
+.image-middle {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  margin-bottom: 20px;
+}
+.image-small {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 30%;
+  margin-bottom: 20px;
+}
+
+.image-large {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
+  margin-bottom: 20px;
+}
+
+//======== contact form ==========
+form {
+	label {
+		font-weight: normal!important;
+    color: #777;
+	}
+  background-color: #fff;
+  padding: 30px 0px;
+  
+
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.contact-form {
+  margin-left: 10px;
+  padding: 30px 10px;
+  
+}
+// label {
+//   color: #777;
+// }
+
+.form-control {
+  display: block;
+  width: 100%;
+  height: $input-height-base; 
+  padding: 10px 20px;
+  font-size: $font-size-base;
+  line-height: $line-height-base;
+  color: $input-color;
+  background-color: $input-bg;
+  background-image: none; 
+  border: 1px solid $input-border;
+  border-radius: 4px; 
+  box-shadow: none;
+  transition: border-color 0.3s ease; /* 입력창 border color에 transition 추가 */
+
+  // Reset height for `textarea`s
+  textarea.form-control {
+    height: auto;
+  }
+  &:focus {
+    border-color: $brand-primary; /* 입력창 선택 시 border-color 변경 */
+    outline: none; /* 기본 outline 제거 */
+    box-shadow: none; /* 선택 시 그림자 제거 */
+  }
+}
+  ::selection {
+  color: #fff;
+  background: $brand-primary;
+  border-color: $brand-primary;
+}
+.contact-btn {
+  margin-top: 30px;
+  // transition: background-color 0.3s ease;
+ 
+}
+
+img {
+  padding-bottom: 0.2em;
 }
