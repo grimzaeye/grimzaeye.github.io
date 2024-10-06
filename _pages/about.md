@@ -22,7 +22,7 @@ pagenator: false
 
 
 ## BIO
-![align_image] (/assets/images/profile2.jpg)
+![align_image] (/blob/main/assets/images/profile2.jpg)
 
 ![profile_image](/assets/images/profile2.jpg){: .image-large}
 
