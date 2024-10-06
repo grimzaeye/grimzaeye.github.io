@@ -9,13 +9,13 @@ date: 2016-03-23T11:48:41-04:00
 carousels:
   - images: 
     - image: /assets/images/slider/dust06.jpeg
-    - image: /assets/images/slider/bbb.JPG
+    - image: /assets/images/slider/bbb.jpg
     - image: /assets/images/slider/Vacance.png
     - image: /assets/images/slider/산책자의 행복.jpg
 ---
 <!-- #이미지 슬라이더 구간  -->
 
-{% include carousel.html height="58" unit="%" duration="7" number="1" %}
+{% include carousel.html height="58" unit="%" duration="5" number="1" %}
 
 
 <!-- Project 구간 -->
