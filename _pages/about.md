@@ -23,12 +23,11 @@ pagenator: false
 
 ## BIO
   
-  ![권세미]({{ site.url }}{{ site.baseurl }}/assets/images/profile2.jpg){: .image-large}
-  {{site.url}}
-  베이스 url{{site.baseurl}}
+![profile_image]({{ site.url }}/assets/images/profile2.jpg){: .image-large}
+
 
 <figure style="width: 300px" class="align-right">
-  <img src="{{ site.url }}{{ site.baseurl }}/assets/images/profile2.jpg" alt="">
+  <img src="{{ site.url }}/assets/images/profile2.jpg" alt="">
   <figcaption>Feels good to be right all the time.</figcaption>
 </figure> 
 
