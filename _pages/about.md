@@ -23,8 +23,15 @@ pagenator: false
 
 ## BIO
   
-  ![image-left]({{ site.url }}{{ site.baseurl }}/assets/images/profile2.jpg){: .image-large}
-  
+  ![권세미]({{ site.url }}{{ site.baseurl }}/assets/images/profile2.jpg){: .image-large}
+  {{site.url}}
+  베이스 url{{site.baseurl}}
+
+<figure style="width: 300px" class="align-right">
+  <img src="{{ site.url }}{{ site.baseurl }}/assets/images/profile2.jpg" alt="">
+  <figcaption>Feels good to be right all the time.</figcaption>
+</figure> 
+
   Semi majored in aesthetics at Seoul National University and has done M.F.A in theater directing at Korea National University of Arts. She wrote and directed \<The Cape\> and directed \<The Bot\> and \<Samba Dees Days\>. She is a co-creator and dramaturg of the theatre group: Aurora of the Desert Star and created the series \<Makeup To Wake Up 1, 2\>, \<The Happiness of the Walker\> and \<Dust\>. She worked on art programs \<Doodling Project on the Road\> (2014) for out-of-school youth and \<Feminism Walking on the Stage\> (2006) for female performers.
   She was a manager of Media Center MediAct‘s strategy team and worked to cultivate local community media and support participants(2017-2022) and she iscurrently an editorial member of the Indie & Impact Media Lab. 
   Her main interests are How gender, minority, and abnormality are performed on the stage, and she intends to expand the audience’s experience through combining new media technology and theater.  She is pursuing a Master’s degree in Art & Technology at Sogang University.
@@ -71,7 +78,7 @@ keyword :젠더, 소수자, 비정상성, 미래 극장, 공연 기술, 몰입, 
   
 ---
 ## Selected Works
-- **The Vacance** \| 연출, 
+- **The Vacance** \| 연출, UE Development 2023
 - **Dust** \| 드라마터그, 각색, 영상 디자인 2022
 - **The Cape** \| 작, 연출 2019
 - **산책자의 행복** \| 드라마터그 2019
@@ -84,7 +91,10 @@ keyword :젠더, 소수자, 비정상성, 미래 극장, 공연 기술, 몰입, 
 - **탈학교 청소년 지원 프로그램 '길위의 낙서 프로젝트'** \| 기획, 운영 2014
 - **Band VIA EP 발매** \| 보컬 2008
 - **전시 영상 '유혹의 기술 1,2'** \| 연출 2008
-  
+---
+
+## Exhibition
+- The Vacance(2023) \| CICA Museum - Experimental Film & Video 2024
 
 ---
 
