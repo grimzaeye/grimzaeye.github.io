@@ -21,11 +21,11 @@ pagenator: false
 ---
 
 
+
+![align_image] (/main/assets/images/profile2.jpg)
+응
+![profile_image](/blob/main/assets/images/profile2.jpg){: .image-large}
 ## BIO
-![align_image] (/blob/main/assets/images/profile2.jpg)
-
-![profile_image](/assets/images/profile2.jpg){: .image-large}
-
 
 <figure style="width: 300px" class="align-right">
   <img src="/assets/images/profile2.jpg" alt="">
