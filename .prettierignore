@@ -1,0 +1,2 @@
+# Ignore Jekyll SCSS files to preserve YAML front matter formatting
+assets/css/main.scss

@@ -659,33 +659,43 @@ summary {
 .recent-posts ul {
   list-style: none;
   padding: 0;
+  margin: 0;
 }
 
 .recent-posts li {
   border-bottom: 1px solid #f2f2f2;
-  margin-bottom: 20px;
+  padding: 15px 0;
+  margin-bottom: 0px;
+  display: flex;
+  flex-direction: column;
 }
 
 .recent-posts .post-title {
-  font-size: 18px;
-  color: #00a651;
-  transition: color 0.3s;
-}
+  margin: 0;
+  font-size: 1rem;
 
-.recent-posts .post-title:hover {
-  color: black;
+  a {
+    font-family: 'Spoqa Han Sans Neo', sans-serif !important;
+    font-weight: 200 !important;
+    /* 얇은 두께 지정 */
+    color: #444 !important;
+    text-decoration: none !important;
+    transition: all 0.3s ease;
+
+    &:hover {
+      color: #000 !important;
+      opacity: 0.7;
+    }
+  }
 }
 
 .recent-posts .post-date {
-  font-size: 12px;
-  color: #777;
-  text-transform: uppercase;
-  // font-family: $font-primary;
-  margin-bottom: 5px;
-}
-
-.recent-posts .post-excerpt {
-  color: #555;
+  font-size: 0.75rem;
+  color: #999;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 300;
+  letter-spacing: 0.5px;
+  margin-bottom: 4px;
 }
 
 .gtco-testimonials blockquote {
@@ -1131,4 +1141,7 @@ form {
 img {
   padding-bottom: 0.2em;
 }
-.super-absurd-class { color: magenta; }
+
+.super-absurd-class {
+  color: magenta;
+}
