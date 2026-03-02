@@ -18,8 +18,8 @@ search: false
   font-style: normal;
 }
 
-$font-primary: 'Montserrat', sans-serif;
-$font-secondary: 'NanumMyeongjo', serif;
+$font-primary: 'GmarketSans', 'Montserrat', sans-serif;
+$font-secondary: 'Pretendard', 'NanumMyeongjo', sans-serif;
 $border-radius-base:  4px;
 $brand-primary: #52D681;
 $brand-secondary: #118DF0; 
@@ -151,10 +151,10 @@ $cursor-disabled:                not-allowed !default;
 * ======================================================= */
 body {
   font-family: $font-secondary;
-  font-weight: 400;
+  font-weight: 300; /* Pretendard looks very elegant at lighter weights for body */
   font-size: 16px;
-  line-height: 1.7;
-  color: #777;
+  line-height: 1.8;
+  color: #333; /* Darkened from #777 for better accessibility and minimal contrast */
   // color: #555;
   background: #fff;
 }

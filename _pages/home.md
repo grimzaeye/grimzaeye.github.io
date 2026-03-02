@@ -4,45 +4,29 @@ layout: splash
 permalink: /
 date: 2016-03-23T11:48:41-04:00
 
-# excerpt: "Bacon ipsum dolor sit amet salami ham hock ham, hamburger corned beef short ribs kielbasa biltong t-bone drumstick tri-tip tail sirloin pork chop."
-
-carousels:
-  - images: 
-    - image: /assets/images/slider/dust06.jpeg
-    - image: /assets/images/slider/bbb.jpg
-    - image: /assets/images/slider/Vacance.png
-    - image: /assets/images/slider/산책자의 행복.jpg
 ---
-<!-- #이미지 슬라이더 구간  -->
-
-{% include carousel.html height="58" unit="%" duration="5" number="1" %}
-
-
-<!-- Project 구간 -->
-<div class = "gtco-heading">
-  <h2> Projects </h2>
-  <p> 주저리 주저리 주저리'Nullam suscipit et nam, tellus velit pellentesque at malesuada, enim eaque. Quis nulla, netus tempor in diam gravida tincidunt
-  </p>
+<!-- Project 갤러리 구간 -->
+<div class="gtco-heading" style="margin-top: 2rem;">
+  <!-- "Projects" 텍스트 없이 여백만 주거나 원하면 다시 넣을 수 있습니다. 현재는 미니멀리즘을 위해 텍스트 최소화 -->
 </div>
 
-<!-- 최신 프로젝트 grid with 섬네일, 제목, 요약 -->
-<div class = "main_feature_container">
+<!-- 최신/주요 프로젝트 갤러리 그리드 -->
+<div class="main_feature_container">
   <div class="feature__wrapper">
     {% assign sorted_projects = site.projects | sort: "date" | reverse %}
-    {% for post in sorted_projects limit: 3 %}
-    
+    {% for post in sorted_projects limit: 9 %}
       <div class="feature__item">
-        <a class ="recent-project" href="{{ post.url }}">
+        <a class="recent-project" href="{{ post.url }}">
           <div class="archive__item">
             {% if post.header.teaser %}
               <div class="archive__item-teaser">
                 <img src="{{ post.header.teaser }}" alt="{{ post.title }}">
               </div>
             {% endif %}
-            <div class="archive__item-body">
-              <h2 class="archive__item-title">{{ post.title }}</h2>
-              <div class="archive__item-excerpt">
-                {{ post.excerpt |strip_html| truncate: 35 }}
+            <div class="archive__item-body" style="text-align: center; padding: 15px;">
+              <h2 class="archive__item-title" style="margin: 0; font-size: 1.1rem; font-weight: normal; font-family: 'GmarketSans', sans-serif;">{{ post.title }}</h2>
+              <div class="archive__item-excerpt" style="font-family: 'Pretendard', sans-serif; font-size: 0.85rem; color: #777; margin-top: 5px;">
+                {{ post.excerpt | strip_html | truncate: 50 }}
               </div>
             </div>
           </div>
@@ -52,21 +36,4 @@ carousels:
   </div>
 </div>
 
-<!-- ===== 메인 하단 news 아카이빙 + testimony ====== -->
-<section class = "main-news">
-  <!-- 1st row, news section-->
-  <div class="gtco-news">
-    {% include recent-news.html %}
-    <!-- ReadMore 버튼 -->
-    <a href="{{ "/news/" }}" class="btn">Read More</a>
-  </div>  
-  <!-- 2nd row, Testimonials Section -->
-  <div class="gtco-testimonials">
-    <h2>Testimonials</h2>
-    <blockquote>
-      <p>&ldquo;Testimonial content goes here.&rdquo;</p>
-      <p class="author"><cite>&mdash; John Doe</cite></p>
-    </blockquote>
-  </div>
-</section>
 
