@@ -2,7 +2,6 @@
 # Only the main Sass file needs front matter (the dashes are enough)
 search: false
 ---
-
 @charset "utf-8";
 
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
@@ -20,24 +19,25 @@ search: false
 
 $font-primary: 'GmarketSans', 'Montserrat', sans-serif;
 $font-secondary: 'Pretendard', 'NanumMyeongjo', sans-serif;
-$border-radius-base:  4px;
+$border-radius-base: 4px;
 $brand-primary: #52D681;
-$brand-secondary: #118DF0; 
+$brand-secondary: #118DF0;
 $brand-special: #00a651;
 
 
 
 $brand-white: #fff;
 $brand-black: #000;
-$grid_number: 4 !default; /* 그리드 수를 4로 설정 */
+$grid_number: 4 !default;
+/* 그리드 수를 4로 설정 */
 $footer-background-color : #262626;
 
-$gray-base:              #000 !default;
-$gray-darker:            mix($gray-base,$brand-white, 13.5%) !default; // #222
-$gray-dark:              mix($gray-base,$brand-white, 20%) !default;   // #333
-$gray:                   mix($gray-base,$brand-white, 33.5%) !default; // #555
-$gray-light:             mix($gray-base,$brand-white, 46.7%) !default; // #777
-$gray-lighter:           mix($gray-base, $brand-white,93.5%) !default; // #eee
+$gray-base: #000 !default;
+$gray-darker: mix($gray-base, $brand-white, 13.5%) !default; // #222
+$gray-dark: mix($gray-base, $brand-white, 20%) !default; // #333
+$gray: mix($gray-base, $brand-white, 33.5%) !default; // #555
+$gray-light: mix($gray-base, $brand-white, 46.7%) !default; // #777
+$gray-lighter: mix($gray-base, $brand-white, 93.5%) !default; // #eee
 
 
 /* type scale */
@@ -94,52 +94,52 @@ $nav-height: 1em !default;
 $nav-toggle-height: 2rem !default;
 
 
-$line-height-base:        1.428571429 !default; // 20/14
-$font-size-base:          14px !default; // ~14px
-$line-height-computed:    floor(($font-size-base * $line-height-base)) !default; // ~20px
+$line-height-base: 1.428571429 !default; // 20/14
+$font-size-base: 14px !default; // ~14px
+$line-height-computed: floor(($font-size-base * $line-height-base)) !default; // ~20px
 //== Forms
 
 //** `<input>` background color
-$input-bg:                       #fff !default;
+$input-bg: #fff !default;
 //** `<input disabled>` background color
-$input-bg-disabled:              $gray-lighter !default;
+$input-bg-disabled: $gray-lighter !default;
 
 //** Text color for `<input>`s
-$input-color:                    $gray !default;
+$input-color: $gray !default;
 //** `<input>` border color
-$input-border:                   #ccc !default;
+$input-border: #ccc !default;
 
 // TODO: Rename `$input-border-radius` to `$input-border-radius-base` in v4
 //** Default `.form-control` border radius
 // This has no effect on `<select>`s in some browsers, due to the limited stylability of `<select>`s in CSS.
-$input-border-radius:            $border-radius !default;
+$input-border-radius: $border-radius !default;
 //** Large `.form-control` border radius
-$input-border-radius-large:      $border-radius !default;
+$input-border-radius-large: $border-radius !default;
 //** Small `.form-control` border radius
-$input-border-radius-small:      $border-radius !default;
+$input-border-radius-small: $border-radius !default;
 
 //** Border color for inputs on focus
-$input-border-focus:             #66afe9 !default;
+$input-border-focus: #66afe9 !default;
 
 //** Placeholder text color
-$input-color-placeholder:        #999 !default;
+$input-color-placeholder: #999 !default;
 
 //** Default `.form-control` height
-$input-height-base:              20 !default;
+$input-height-base: 20 !default;
 
 //** `.form-group` margin
-$form-group-margin-bottom:       15px !default;
+$form-group-margin-bottom: 15px !default;
 
-$legend-color:                   $gray-dark !default;
-$legend-border-color:            #e5e5e5 !default;
+$legend-color: $gray-dark !default;
+$legend-border-color: #e5e5e5 !default;
 
 //** Background color for textual input addons
-$input-group-addon-bg:           $gray-lighter !default;
+$input-group-addon-bg: $gray-lighter !default;
 //** Border color for textual input addons
 $input-group-addon-border-color: $input-border !default;
 
 //** Disabled cursor for form controls and buttons.
-$cursor-disabled:                not-allowed !default;
+$cursor-disabled: not-allowed !default;
 
 
 
@@ -151,10 +151,12 @@ $cursor-disabled:                not-allowed !default;
 * ======================================================= */
 body {
   font-family: $font-secondary;
-  font-weight: 300; /* Pretendard looks very elegant at lighter weights for body */
+  font-weight: 300;
+  /* Pretendard looks very elegant at lighter weights for body */
   font-size: 16px;
   line-height: 1.8;
-  color: #333; /* Darkened from #777 for better accessibility and minimal contrast */
+  color: #333;
+  /* Darkened from #777 for better accessibility and minimal contrast */
   // color: #555;
   background: #fff;
 }
@@ -170,6 +172,7 @@ body {
   -o-transition: 0.5s;
   transition: 0.5s;
 }
+
 /* links */
 
 a {
@@ -199,7 +202,13 @@ p {
   font-family: $font-secondary;
 }
 
-h1, h2, h3, h4, h5, h6, figure {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+figure {
   color: #000;
   font-family: $font-primary;
   font-weight: 400;
@@ -213,7 +222,8 @@ h1 {
   // font-size: 4.441em;
 }
 
-h4, h6{
+h4,
+h6 {
   font-weight: bold;
 }
 
@@ -229,7 +239,7 @@ summary {
 }
 
 // ======== 페이지 타이틀 글자 크기 설정
-.page__title{
+.page__title {
   font-size: 35px;
   // margin-top: .5em;
   margin-bottom: 1.0em;
@@ -267,10 +277,12 @@ summary {
   position: relative;
   overflow: visible;
   border-bottom: none;
+
   &__inner-wrap {
     padding-bottom: 0em;
   }
 }
+
 .masthead_inner-wrap {
   max-width: 1140px;
   position: relative;
@@ -296,8 +308,9 @@ summary {
   padding: 0;
   width: 100%;
   padding: 5px 0 0 0;
-  z-index: 1000; 
+  z-index: 1000;
 }
+
 .greedy-nav a {
   color: #cccccc;
 }
@@ -319,6 +332,7 @@ summary {
   text-size-adjust: 100%;
   text-transform: uppercase;
   unicode-bidi: isolate;
+
   a {
     color: #000;
   }
@@ -329,17 +343,19 @@ summary {
 .masthead__menu-item {
   position: relative;
   padding: 30px 10px;
+
   .active {
-    color: #000000; /* 활성화된 메뉴 항목의 색상 */
+    color: #000000;
+    /* 활성화된 메뉴 항목의 색상 */
   }
 }
 
-.masthead__menu-item>a{
+.masthead__menu-item>a {
   font-size: 14px !important;
   position: relative;
 }
 
-.visible-links ul{
+.visible-links ul {
   color: #cccccc;
   text-transform: uppercase;
   font-size: 12px !important;
@@ -348,9 +364,10 @@ summary {
 }
 
 
-.masthead__menu-item a:hover, 
+.masthead__menu-item a:hover,
 .masthead__menu-item a:focus {
-  color: #000000; /* 활성화된 링크 색상 */
+  color: #000000;
+  /* 활성화된 링크 색상 */
 }
 
 
@@ -368,11 +385,12 @@ summary {
   position: relative;
 
   & a {
-    padding-right: 20px !important; /* 드롭다운 화살표 공간 */
+    padding-right: 20px !important;
+    /* 드롭다운 화살표 공간 */
     position: relative;
   }
 
-  & > a:after {
+  &>a:after {
     font-family: 'icomoon';
     speak: none;
     font-style: normal;
@@ -402,7 +420,8 @@ summary {
   visibility: hidden; //
   opacity: 1; //
   position: absolute;
-  top: 80px; /* 부모 메뉴 바로 아래에 위치 */
+  top: 80px;
+  /* 부모 메뉴 바로 아래에 위치 */
   left: 0;
   text-align: left;
   background: #000;
@@ -413,9 +432,9 @@ summary {
   border-radius: 4px;
   -webkit-transition: 0.3s;
   -o-transition: 0.3s;
-  transition: 0.3s;  
-  
-  
+  transition: 0.3s;
+
+
   &:before {
     bottom: 100%;
     left: 40px;
@@ -430,6 +449,7 @@ summary {
     margin-left: -8px;
   }
 }
+
 /* 마우스를 올렸을 때 드롭다운 표시 */
 .greedy-nav .has-dropdown:hover .dropdown-menu {
   visibility: visible;
@@ -443,7 +463,7 @@ summary {
 
   & a {
     padding: 2px 0;
-    right:0;
+    right: 0;
     display: block;
     color: #999999;
     line-height: 1.2;
@@ -465,13 +485,15 @@ summary {
   margin: 0em;
 }
 
-.greedy-nav .dropdown-menu__item.has-dropdown> a:hover {
+.greedy-nav .dropdown-menu__item.has-dropdown>a:hover {
   background-color: #f0f0f0;
+
   .dropdown-menu {
     visibility: visible;
     opacity: 1;
   }
 }
+
 // 메인 메뉴간 간격 조정
 .greedy-nav a {
   margin: 0.1em;
@@ -482,9 +504,10 @@ summary {
 }
 
 
-.page__title a:visited{
+.page__title a:visited {
   color: #000;
 }
+
 .page__content {
   a.recent-project:not(.btn) {
     &:hover {
@@ -492,7 +515,7 @@ summary {
       color: $brand-special;
     }
   }
-  
+
 }
 
 // ==============메인 페이지 중간 제목 heading ==============
@@ -512,7 +535,7 @@ summary {
   line-height: 1.7;
   color: #898989;
   margin-right: 10%;
-  margin-left:10%;
+  margin-left: 10%;
   text-align: center;
 }
 
@@ -525,8 +548,8 @@ summary {
     grid-template-columns: 1fr;
     gap: 1em;
     padding: 1em;
-  
-      // 중간 크기 화면 (태블릿)
+
+    // 중간 크기 화면 (태블릿)
     @media (min-width: $small) {
       grid-template-columns: repeat(2, 1fr); // 두 개의 열
     }
@@ -536,9 +559,10 @@ summary {
       grid-template-columns: repeat(3, 1fr); // 세 개의 열
     }
   }
-  
+
   .feature__item {
-    width: 100%; /* 세 개의 포스트를 한 줄에 맞추기 */
+    width: 100%;
+    /* 세 개의 포스트를 한 줄에 맞추기 */
     // text-align: center;
     border-radius: 1px;
     overflow: hidden;
@@ -546,42 +570,53 @@ summary {
     transition: transform 0.3s ease;
     background: #ffffff;
   }
-  
+
   .feature__item:hover {
-    transform: translateY(-5px); /* 호버 시 살짝 올라가는 효과 */
+    transform: translateY(-5px);
+    /* 호버 시 살짝 올라가는 효과 */
   }
-  
+
   .archive__item-teaser {
     position: relative;
     border-radius: $border-radius;
     overflow: hidden;
     width: 100%;
     height: 0;
-    padding-bottom: 75%; /* 4:3 비율을 유지하기 위해 높이 설정 (3/4 = 0.75) */
-  
+    padding-bottom: 75%;
+    /* 4:3 비율을 유지하기 위해 높이 설정 (3/4 = 0.75) */
+
     img {
       width: 100%;
       position: absolute;
       top: 0;
       left: 0;
       width: 100%;
-      height: 100%; /* 부모의 높이에 맞춰 반응형으로 조정 */
-      object-fit: cover; /* 이미지 비율을 유지하면서 영역을 채움 */
+      height: 100%;
+      /* 부모의 높이에 맞춰 반응형으로 조정 */
+      object-fit: cover;
+      /* 이미지 비율을 유지하면서 영역을 채움 */
     }
   }
 
   .archive__item-title {
-    font-size: .85rem;
-    font-family: "Montserrat", sans-serif;
+    font-size: 0.75rem !important;
+    font-family: 'Spoqa Han Sans Neo', sans-serif !important;
+    font-weight: 200 !important;
     margin: 15px 0 0px;
+
+    a {
+      color: inherit !important;
+      text-decoration: none !important;
+      font-size: inherit !important;
+      font-family: inherit !important;
+      font-weight: inherit !important;
+    }
   }
-  
+
   .archive__item-excerpt {
-    color: #777;
-    font-size: 0.65rem;
-    margin-bottom: 15px;
+    display: none;
   }
-  
+
 }
 
 
@@ -598,7 +633,7 @@ summary {
   gap: 1em;
   padding: 1em;
 
-    // 중간 크기 화면 (태블릿)
+  // 중간 크기 화면 (태블릿)
   @media (min-width: $small) {
     grid-template-columns: repeat(2, 1fr); // 두 개의 열
   }
@@ -609,12 +644,14 @@ summary {
   }
 }
 
-.gtco-news, .gtco-testimonials {
+.gtco-news,
+.gtco-testimonials {
   flex-basis: 100%;
   padding: 20px;
 }
 
-.gtco-news h2, .gtco-testimonials h2 {
+.gtco-news h2,
+.gtco-testimonials h2 {
   font-size: 24px;
   margin-bottom: 20px;
 }
@@ -666,7 +703,9 @@ a {
   text-decoration: none;
 }
 
-a:hover, a:focus, a:active {
+a:hover,
+a:focus,
+a:active {
   text-decoration: none;
 }
 
@@ -680,33 +719,42 @@ a:hover, a:focus, a:active {
   margin-bottom: 4px;
   font-family: $font-primary;
   font-size: 13px;
-  font-weight: 700!important;
+  font-weight: 700 !important;
   // height: 70px!important;
   border-radius: 1px;
   letter-spacing: 2px;
-  transition:.5s;
+  transition: .5s;
   padding: 10px 10px;
   text-transform: uppercase;
-  text-shadow: none!important;
-  color: #2f9051; /* 기본 회색 */
-  background-color: $brand-primary; /*$brand-primary;*/ /* 배경색 그대로 유지 */
+  text-shadow: none !important;
+  color: #2f9051;
+  /* 기본 회색 */
+  background-color: $brand-primary;
+  /*$brand-primary;*/
+  /* 배경색 그대로 유지 */
   // -webkit-box-shadow: 0px 5px 10px 0px rgba(0,0,0,0.15);
   // -moz-box-shadow: 0px 5px 10px 0px rgba(0,0,0,0.15);
   // box-shadow: 0px 5px 10px 0px rgba(0,0,0,0.15);
 
-  &:hover, &:active, &:focus {
-    color: #fff; /* hover 시 흰색 */
-    outline: none!important;
-    -webkit-box-shadow: 0px 10px 15px 0px rgba(0,0,0,0.10);
-    -moz-box-shadow: 0px 10px 15px 0px rgba(0,0,0,0.10);
-    box-shadow: 0px 10px 15px 0px rgba(0,0,0,0.10);
+  &:hover,
+  &:active,
+  &:focus {
+    color: #fff;
+    /* hover 시 흰색 */
+    outline: none !important;
+    -webkit-box-shadow: 0px 10px 15px 0px rgba(0, 0, 0, 0.10);
+    -moz-box-shadow: 0px 10px 15px 0px rgba(0, 0, 0, 0.10);
+    box-shadow: 0px 10px 15px 0px rgba(0, 0, 0, 0.10);
   }
 
   &:visited {
-    color: #2f9051; /* hover 시 흰색 */
+    color: #2f9051;
+    /* hover 시 흰색 */
   }
+
   &:hover {
-    color: #fff; /* hover 시 흰색 */
+    color: #fff;
+    /* hover 시 흰색 */
   }
 }
 
@@ -715,6 +763,7 @@ a:hover, a:focus, a:active {
   $right-sidebar-width-narrow: 0px;
   $right-sidebar-width: 0px;
   $right-sidebar-width-wide: 0px;
+
   @include breakpoint($large) {
     float: inline-end;
     width: calc(100% - #{$right-sidebar-width-narrow});
@@ -732,6 +781,7 @@ a:hover, a:focus, a:active {
   font-weight: normal;
 
 }
+
 .sidebar.sticky {
   padding-top: 40px;
 }
@@ -754,6 +804,7 @@ a:hover, a:focus, a:active {
     }
   }
 }
+
 .page__title {
   // margin-top: 0em;
 }
@@ -761,10 +812,11 @@ a:hover, a:focus, a:active {
 .breadscrumbs {
   padding-inline: 0em;
 }
+
 .breadscrumbs {
   ol {
-  margin-top: 30px;
-  margin-bottom: 0px !important;
+    margin-top: 30px;
+    margin-bottom: 0px !important;
   }
 }
 
@@ -775,10 +827,11 @@ a:hover, a:focus, a:active {
 .grid__item.grid-3 {
 
   /* For grid_number: 3 */
-  
+
   @include breakpoint($medium) {
     margin-inline: 0;
-    width: span(4 of 12); /* 3 columns */
+    width: span(4 of 12);
+    /* 3 columns */
 
     &:nth-child(3n + 1) {
       clear: both;
@@ -806,7 +859,8 @@ a:hover, a:focus, a:active {
   overflow: hidden;
   width: 100%;
   height: 0;
-  padding-bottom: 75%; /* 4:3 비율을 유지하기 위해 높이 설정 (3/4 = 0.75) */
+  padding-bottom: 75%;
+  /* 4:3 비율을 유지하기 위해 높이 설정 (3/4 = 0.75) */
 
   img {
     width: 100%;
@@ -814,8 +868,10 @@ a:hover, a:focus, a:active {
     top: 0;
     left: 0;
     width: 100%;
-    height: 100%; /* 부모의 높이에 맞춰 반응형으로 조정 */
-    object-fit: cover; /* 이미지 비율을 유지하면서 영역을 채움 */
+    height: 100%;
+    /* 부모의 높이에 맞춰 반응형으로 조정 */
+    object-fit: cover;
+    /* 이미지 비율을 유지하면서 영역을 채움 */
   }
 }
 
@@ -858,7 +914,7 @@ a:hover, a:focus, a:active {
 .archive__item-excerpt {
   display: block;
   font-size: .9em;
-  color:#555;
+  color: #555;
 }
 
 //============= Footer ==============
@@ -868,7 +924,7 @@ a:hover, a:focus, a:active {
   // float: inline-start;
   float: left;
   margin: 0;
-  margin-top:20px;
+  margin-top: 20px;
   // margin-inline: 0;
   width: 100%;
   color: $muted-text-color;
@@ -891,6 +947,7 @@ a:hover, a:focus, a:active {
   font-size: 14px;
   color: rgb(119, 119, 119);
   margin-left: 20px;
+
   a {
     color: rgb(119, 119, 119);
   }
@@ -904,17 +961,21 @@ a:hover, a:focus, a:active {
 // footer customize
 .footer-grid {
   display: grid;
-  grid-template-columns: repeat(3, 1fr); /* 세 개의 칸으로 설정 */
+  grid-template-columns: repeat(3, 1fr);
+  /* 세 개의 칸으로 설정 */
   gap: 30px;
   padding: 40px 20px;
   padding-bottom: 0px;
   // margin-bottom:30px;
-  background-color:$footer-background-color; /* 배경색 설정 */
-  color: #fff; /* 텍스트 색상 */
+  background-color: $footer-background-color;
+  /* 배경색 설정 */
+  color: #fff;
+  /* 텍스트 색상 */
 }
 
 .footer-col {
   font-family: $font-primary;
+
   p {
     color: rgb(119, 119, 119);
   }
@@ -938,7 +999,8 @@ a:hover, a:focus, a:active {
 }
 
 .footer-col ul li a {
-  color: #52D681; /* 링크 색상 */
+  color: #52D681;
+  /* 링크 색상 */
   text-decoration: none;
 }
 
@@ -951,19 +1013,21 @@ a:hover, a:focus, a:active {
 /* 반응형: 화면이 작을 때는 1~2칸으로 줄어듦 */
 @media (max-width: $medium) {
   .footer-grid {
-    grid-template-columns: repeat(2, 1fr); /* 2칸으로 변경 */
+    grid-template-columns: repeat(2, 1fr);
+    /* 2칸으로 변경 */
   }
 }
 
 @media (max-width: $small) {
   .footer-grid {
-    grid-template-columns: 1fr; /* 1칸으로 변경 */
+    grid-template-columns: 1fr;
+    /* 1칸으로 변경 */
   }
 }
 
 .align-left {
 
-  padding-right: 30px; 
+  padding-right: 30px;
 }
 
 .align-right {
@@ -977,6 +1041,7 @@ a:hover, a:focus, a:active {
   width: 50%;
   margin-bottom: 20px;
 }
+
 .image-small {
   display: block;
   margin-left: auto;
@@ -995,13 +1060,14 @@ a:hover, a:focus, a:active {
 
 //======== contact form ==========
 form {
-	label {
-		font-weight: normal!important;
+  label {
+    font-weight: normal !important;
     color: #777;
-	}
+  }
+
   background-color: #fff;
   padding: 30px 0px;
-  
+
 
 }
 
@@ -1012,8 +1078,9 @@ form {
 .contact-form {
   margin-left: 10px;
   padding: 30px 10px;
-  
+
 }
+
 // label {
 //   color: #777;
 // }
@@ -1021,39 +1088,47 @@ form {
 .form-control {
   display: block;
   width: 100%;
-  height: $input-height-base; 
+  height: $input-height-base;
   padding: 10px 20px;
   font-size: $font-size-base;
   line-height: $line-height-base;
   color: $input-color;
   background-color: $input-bg;
-  background-image: none; 
+  background-image: none;
   border: 1px solid $input-border;
-  border-radius: 4px; 
+  border-radius: 4px;
   box-shadow: none;
-  transition: border-color 0.3s ease; /* 입력창 border color에 transition 추가 */
+  transition: border-color 0.3s ease;
+  /* 입력창 border color에 transition 추가 */
 
   // Reset height for `textarea`s
   textarea.form-control {
     height: auto;
   }
+
   &:focus {
-    border-color: $brand-primary; /* 입력창 선택 시 border-color 변경 */
-    outline: none; /* 기본 outline 제거 */
-    box-shadow: none; /* 선택 시 그림자 제거 */
+    border-color: $brand-primary;
+    /* 입력창 선택 시 border-color 변경 */
+    outline: none;
+    /* 기본 outline 제거 */
+    box-shadow: none;
+    /* 선택 시 그림자 제거 */
   }
 }
-  ::selection {
+
+::selection {
   color: #fff;
   background: $brand-primary;
   border-color: $brand-primary;
 }
+
 .contact-btn {
   margin-top: 30px;
   // transition: background-color 0.3s ease;
- 
+
 }
 
 img {
   padding-bottom: 0.2em;
 }
+.super-absurd-class { color: magenta; }

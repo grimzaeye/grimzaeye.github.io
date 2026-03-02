@@ -24,10 +24,7 @@ date: 2016-03-23T11:48:41-04:00
               </div>
             {% endif %}
             <div class="archive__item-body" style="text-align: center; padding: 15px;">
-              <h2 class="archive__item-title" style="margin: 0; font-size: 1.1rem; font-weight: normal; font-family: 'GmarketSans', sans-serif;">{{ post.title }}</h2>
-              <div class="archive__item-excerpt" style="font-family: 'Pretendard', sans-serif; font-size: 0.85rem; color: #777; margin-top: 5px;">
-                {{ post.excerpt | strip_html | truncate: 50 }}
-              </div>
+              <h2 class="archive__item-title">{{ post.title }}</h2>
             </div>
           </div>
         </a>
