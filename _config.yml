@@ -342,6 +342,7 @@ defaults:
       #   nav: news
       breadcrumbs: true
       toc: true
+      toc_sticky: true
   # _projects
   - scope:
       path: ""
@@ -357,6 +358,7 @@ defaults:
       # date: true
       breadcrumbs: true
       toc: true
+      toc_sticky: true
 
 # Collections
 collections:
