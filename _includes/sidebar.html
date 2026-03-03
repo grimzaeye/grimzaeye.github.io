@@ -17,7 +17,7 @@
   {% if page.category %}
   {% assign same_category = site.documents | where: "category", page.category %}
   {% if same_category.size > 1 %}
-  <div style="margin-top: 2rem; padding: 0 1rem;">
+  <div style="margin-top: 2rem;">
     <h3 class="nav__title"
       style="margin-bottom: 0.5rem; font-size: 0.8em; text-transform: uppercase; color: #999; border-bottom: 1px solid #eee; padding-bottom: 5px;">
       More in {{ page.category | capitalize }}</h3>
