@@ -16,7 +16,7 @@ pagination:
   sort_reverse: true
 ---
 
-A Collection of Recent News and Reflections `(In Progress)`.
+
 
 <div class="entries-list">
   {% for post in paginator.posts %}
