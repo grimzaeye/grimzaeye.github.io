@@ -20,11 +20,7 @@ breadscrumbs: false
 pagenator: false
 ---
 
-
-
-![align_image] (/assets/images/profile2.jpg)
-
-![profile_image](/assets/images/profile2.jpg){: .image-large}
+![프로필 사진](/assets/images/profile2.jpg){: .align-center}
 ## BIO
 
 <figure style="width: 300px" class="align-right">
