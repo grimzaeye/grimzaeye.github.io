@@ -2,7 +2,7 @@
 layout: single
 permalink: /about/
 title: "About"
-excerpt: "Minimal Mistakes is a flexible two-column Jekyll theme."
+excerpt: "Introduce Semi Kwon"
 gallery:
   - url: /assets/images/press_한국연극2022.jpg
     image_path: /assets/images/press_한국연극2022.jpg
@@ -24,12 +24,12 @@ pagenator: false
 
 ![align_image] (/main/assets/images/profile2.jpg)
 응
-![profile_image](/blob/main/assets/images/profile2.jpg){: .image-large}
+![profile_image](/assets/images/profile2.jpg){: .image-large}
 ## BIO
 
 <figure style="width: 300px" class="align-right">
   <img src="/assets/images/profile2.jpg" alt="">
-  <figcaption>Feels good to be right all the time.</figcaption>
+  <figcaption>Semi Kwon</figcaption>
 </figure> 
 
 Semi majored in aesthetics at Seoul National University and has done M.F.A in theater directing at Korea National University of Arts. She wrote and directed \<The Cape\> and directed \<The Bot\> and \<Samba Dees Days\>. She is a co-creator and dramaturg of the theatre group: Aurora of the Desert Star and created the series \<Makeup To Wake Up 1, 2\>, \<The Happiness of the Walker\> and \<Dust\>. She worked on art programs \<Doodling Project on the Road\> (2014) for out-of-school youth and \<Feminism Walking on the Stage\> (2006) for female performers.
