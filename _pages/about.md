@@ -22,13 +22,13 @@ pagenator: false
 
 
 
-![align_image] (/main/assets/images/profile2.jpg)
-응
+![align_image] (/assets/images/profile2.jpg)
+
 ![profile_image](/assets/images/profile2.jpg){: .image-large}
 ## BIO
 
 <figure style="width: 300px" class="align-right">
-  <img src="/assets/images/profile2.jpg" alt="">
+  <img src="/assets/images/profile_300x360.jpeg" alt="">
   <figcaption>Semi Kwon</figcaption>
 </figure> 
 
