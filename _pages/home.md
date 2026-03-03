@@ -23,13 +23,16 @@ date: 2016-03-23T11:48:41-04:00
                 <img src="{{ post.header.teaser }}" alt="{{ post.title }}">
               </div>
             {% endif %}
-            <div class="archive__item-body" style="text-align: center; padding: 15px;">
+            <div class="archive__item-body" style="text-align: center; padding: 5px 15px 15px;">
               <h2 class="archive__item-title">{{ post.title }}</h2>
             </div>
           </div>
         </a>
       </div>
     {% endfor %}
+  </div>
+  <div class="view-all-link" style="margin-top: 15px; margin-bottom: 20px; text-align: right;">
+    <a href="/projects/" style="font-family: 'GmarketSans', sans-serif; font-weight: 300; font-size: 0.8rem; color: #a0a0a0; text-decoration: none; letter-spacing: 1px; transition: color 0.3s;">VIEW ALL &rarr;</a>
   </div>
 </div>
 
