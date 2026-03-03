@@ -18,7 +18,7 @@ search: false
 }
 
 $font-primary: 'GmarketSans', 'Montserrat', sans-serif;
-$font-secondary: 'Pretendard', 'NanumMyeongjo', sans-serif;
+$font-secondary: 'KoPubWorldBatang', 'NanumMyeongjo', serif;
 $border-radius-base: 4px;
 $brand-primary: #52D681;
 $brand-secondary: #118DF0;
@@ -152,7 +152,7 @@ $cursor-disabled: not-allowed !default;
 body {
   font-family: $font-secondary;
   font-weight: 300;
-  /* Pretendard looks very elegant at lighter weights for body */
+  /* KoPubWorldBatang provides an elegant, highly readable serif experience */
   font-size: 16px;
   line-height: 1.8;
   color: #333;
