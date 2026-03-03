@@ -19,6 +19,7 @@ gallery:
 ![Header Image](/assets/images/portfolio/2023-girl-lamp-radio-2.png){: .align-center}
 
 
+
 VR 영화 드라마터그. 관객 인터랙션 및 모션캡쳐 워크숍 진행. VR의 연극성과 대안 공간 경험 탐구.
 
 ## 상세 내용

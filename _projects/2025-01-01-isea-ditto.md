@@ -5,7 +5,6 @@ date: 2025-01-01
 collection: projects
 category: research
 header:
-  image: /assets/images/unsplash-image-1.jpg
   teaser: /assets/images/unsplash-gallery-image-2-th.jpg
 sidebar:
   - title: "Role"

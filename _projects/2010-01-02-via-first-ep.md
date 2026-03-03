@@ -5,7 +5,6 @@ date: 2010-01-02
 collection: projects
 category: arts
 header:
-  image: /assets/images/unsplash-image-1.jpg
   teaser: /assets/images/unsplash-gallery-image-2-th.jpg
 sidebar:
   - title: "Role"
