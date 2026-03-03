@@ -354,7 +354,7 @@ defaults:
       comments: true
       share: #true
       related: true
-      classes: wide
+      # classes: wide
       # date: true
       breadcrumbs: true
       toc: true
