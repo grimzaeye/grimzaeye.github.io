@@ -1,7 +1,7 @@
 ---
 title: "[샘플] 생성형 AI 시대의 디자인 인터페이스 리서치"
 excerpt: "인공지능 도구가 창작자의 프로세스를 어떻게 변화시키는지 탐구합니다."
-date: 2026-03-05
+date: 2026-03-01
 collection: projects
 category: research
 header:

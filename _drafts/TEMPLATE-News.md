@@ -1,6 +1,6 @@
 ---
 title: "새로운 뉴스 / 소식 업데이트 (News Template)"
-date: 2026-03-04
+date: 2026-03-01
 categories: 
   - news
 ---

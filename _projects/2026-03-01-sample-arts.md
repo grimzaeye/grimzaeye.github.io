@@ -1,7 +1,7 @@
 ---
 title: "[샘플] 숲속의 미디어 아트 전: 공명(Resonance)"
 excerpt: "자연과 기술이 융합된 인터랙티브 설치 예술 프로젝트입니다."
-date: 2026-03-05
+date: 2026-03-01
 collection: projects
 category: arts
 header:

@@ -1,7 +1,7 @@
 ---
 title: "새로운 리서치 기록 (Research Template)"
 excerpt: "연구 및 조사의 핵심 주제나 요약을 적어주세요."
-date: 2026-03-04
+date: 2026-03-01
 collection: projects
 category: research
 header:

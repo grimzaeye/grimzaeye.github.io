@@ -1,7 +1,7 @@
 ---
 title: "새로운 예술 프로젝트 제목 (Arts Template)"
 excerpt: "목록에 쓰일 짧은 한 줄 설명입니다. (예: 2026년 진행한 미디어 아트 전시 기록)"
-date: 2026-03-04
+date: 2026-03-01
 collection: projects
 category: arts
 header:
