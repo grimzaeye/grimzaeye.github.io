@@ -1,31 +1,32 @@
 ---
-layout: collection-category
-title: "Research Project"
-collection: projects
-permalink: /projects/research
-# header:
-#   # overlay_color: "#000"
-#   # overlay_filter: "0.5"
-#   # overlay_image: /assets/images/unsplash-image-1.jpg
-#   image: /assets/images/unsplash-image-1.jpg
-#   # actions:
-#   #   - label: "Download"
-#   #     url: "https://github.com/mmistakes/minimal-mistakes/"
-#   caption: "Photo credit: [**Unsplash**](https://unsplash.com)"
-# excerpt: "Bacon ipsum dolor sit amet salami ham hock ham, hamburger corned beef short ribs kielbasa biltong t-bone drumstick tri-tip tail sirloin pork chop."
-sidebar:
-  enable: true
-  title: ' '
-  nav: "sidebar-category"
-
-entries_layout: grid
-grid_number: 3
-# classes: wide
-related: true
-category: research
-
+layout: splash
+title: "Research Projects"
+permalink: /projects/research/
 ---
 
-<div>
-여기는 category-research 페이지 입니다
+<!-- Research 카테고리 프로젝트 갤러리 그리드 -->
+<div class="gtco-heading" style="margin-top: 4rem;">
+  <h2 style="font-family: 'GmarketSans', sans-serif; font-weight: 300;">Research Projects</h2>
+</div>
+
+<div class="main_feature_container">
+  <div class="feature__wrapper">
+    {% assign research_projects = site.projects | where: "category", "research" | sort: "date" | reverse %}
+    {% for post in research_projects %}
+      <div class="feature__item">
+        <a class="recent-project" href="{{ post.url }}">
+          <div class="archive__item">
+            {% if post.header.teaser %}
+              <div class="archive__item-teaser">
+                <img src="{{ post.header.teaser }}" alt="{{ post.title }}">
+              </div>
+            {% endif %}
+            <div class="archive__item-body" style="text-align: center; padding: 5px 15px 15px;">
+              <h2 class="archive__item-title">{{ post.title }}</h2>
+            </div>
+          </div>
+        </a>
+      </div>
+    {% endfor %}
+  </div>
 </div>
