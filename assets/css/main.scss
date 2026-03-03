@@ -825,6 +825,22 @@ a:active {
   }
 }
 
+/* News List Specific Styles */
+.entries-list {
+  .list__item {
+    margin-bottom: 25px;
+    padding-bottom: 25px;
+    border-bottom: 1px solid #eaeaea;
+
+    &:last-child {
+      border-bottom: none;
+    }
+  }
+  .archive__item-excerpt {
+    display: none !important;
+  }
+}
+
 .page__title {
   // margin-top: 0em;
 }
