@@ -5,7 +5,6 @@ date: 2019-07-16
 collection: projects
 category: arts
 header:
-  image: /assets/images/portfolio/2017-makeup-2-1.jpg
   teaser: /assets/images/portfolio/2017-makeup-2-1.jpg
 sidebar:
   - title: "Role"
@@ -26,6 +25,8 @@ gallery:
     image_path: /assets/images/portfolio/2019-makeup-2-2.jpg
     alt: "Makeup to Wake Up 2 작품 사진"
 ---
+![Header Image](/assets/images/portfolio/2017-makeup-2-1.jpg){: .align-center}
+
 
 젠더와 정체성의 문제를 탐구한 공동창작 시리즈.
 

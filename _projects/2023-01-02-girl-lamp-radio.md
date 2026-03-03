@@ -5,7 +5,6 @@ date: 2023-01-02
 collection: projects
 category: arts
 header:
-  image: /assets/images/portfolio/2023-girl-lamp-radio-2.png
   teaser: /assets/images/portfolio/2023-girl-lamp-radio-2.png
 sidebar:
   - title: "Role"
@@ -17,6 +16,8 @@ gallery:
     image_path: /assets/images/portfolio/2023-girl-lamp-radio-2.png
     alt: "소녀램프라디오 작품 사진"
 ---
+![Header Image](/assets/images/portfolio/2023-girl-lamp-radio-2.png){: .align-center}
+
 
 VR 영화 드라마터그. 관객 인터랙션 및 모션캡쳐 워크숍 진행. VR의 연극성과 대안 공간 경험 탐구.
 

@@ -5,7 +5,6 @@ date: 2017-07-18
 collection: projects
 category: arts
 header:
-  image: /assets/images/portfolio/2017-remaining-world-1.png
   teaser: /assets/images/portfolio/2017-remaining-world-1.png
 sidebar:
   - title: "Role"
@@ -26,6 +25,8 @@ gallery:
     image_path: /assets/images/portfolio/2017-remaining-world-4.png
     alt: "남은 한조각의 세계 작품 사진"
 ---
+![Header Image](/assets/images/portfolio/2017-remaining-world-1.png){: .align-center}
+
 
 남은 한조각의 세계 드라마터그 참여.
 

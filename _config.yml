@@ -324,6 +324,7 @@ defaults:
       share: #true
       related: true
       classes: wide
+      toc: false
   # _news
   - scope:
       path: ""
@@ -341,8 +342,8 @@ defaults:
       #   enabled: true
       #   nav: news
       breadcrumbs: true
-      toc: true
-      toc_sticky: true
+      toc: false
+      # toc_sticky: true
   # _projects
   - scope:
       path: ""
@@ -354,11 +355,11 @@ defaults:
       comments: true
       share: #true
       related: true
-      # classes: wide
+      classes: wide
       # date: true
       breadcrumbs: true
-      toc: true
-      toc_sticky: true
+      toc: false
+      # toc_sticky: true
 
 # Collections
 collections:

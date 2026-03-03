@@ -13,17 +13,17 @@ gallery:
   - url: /assets/images/press_공연과이론2019.png
     image_path: /assets/images/press_공연과이론2019.png
     alt: "article_공연과이론 2019"
-last_modified_at: 2026-03-03T20:45:00Z
+last_modified_at: 2026-03-03T21:00:00Z
 author_profile: true
-toc: true
-toc_sticky: true
+toc: false
+classes: wide
 breadcrumbs: false
 pagenator: false
 ---
 
-![프로필 사진](/assets/images/profile2.jpg){: .align-center}
 
 ## 🧾 BIO (자기소개)
+
 
 <figure style="width: 300px" class="align-right">
   <img src="/assets/images/profile_300x360.jpeg" alt="Semi Kwon">
@@ -34,7 +34,7 @@ pagenator: false
 
 권세미는 서울대학교 미학과를 거쳐 한국예술종합학교에서 연극 연출을, 서강대학교에서 Art & Technology를 전공한 공연 창작자이다. 그는 젠더와 섹슈얼리티, 그리고 기술이 인간의 관계와 극장의 구조를 어떻게 재구성하는지에 관심을 두고 작업해 왔다.
 
-<망토>, <메이크업 투 웨이크업> 시리즈를 통해 젠더와 정체성의 문제를 탐구해 왔으며, 최근에는 인공지능과 가상현실 기술을 공연의 새로운 언어로 실험하고 있다. 2023 동아연극상 작품상 수상작 <비비비>에서 가상 인물을 무대에 등장시킨 시도, XR 공연 <희미하고 불쾌한 타인들>에서 관객들이 가상 공간에 동시 접속해 선택의 책임을 나누도록 설계한 작업이 대표적이다.
+&lt;망토&gt;, &lt;메이크업 투 웨이크업&gt; 시리즈를 통해 젠더와 정체성의 문제를 탐구해 왔으며, 최근에는 인공지능과 가상현실 기술을 공연의 새로운 언어로 실험하고 있다. 2023 동아연극상 작품상 수상작 &lt;비비비&gt;에서 가상 인물을 무대에 등장시킨 시도, XR 공연 &lt;희미하고 불쾌한 타인들&gt;에서 관객들이 가상 공간에 동시 접속해 선택의 책임을 나누도록 설계한 작업이 대표적이다.
 
 인문학적 사유와 극장의 문법을 바탕으로 기술을 매개 삼아 관객의 감각을 확장하는 그는, 이론과 현장을 가로지르며 동시대 공연의 새로운 형식을 탐색하는 실천적 연구자이다.
 
@@ -64,20 +64,20 @@ Grounded in humanistic inquiry and theatrical grammar, he employs technology as 
 - **2017 – 2022**: 영상미디어센터 미디액트(MediAct) 전략사업팀장
     *(지역 공동체 미디어 지원 및 마을미디어 생태계 조성 사업 운영)*
 - **2016 – 2022**: 공동창작집단 ‘사막별의오로라’ 창작멤버 및 드라마터그
-- **2015 – 2016**: 서울연극센터 <10분희곡페스티벌> 낭독공연 연출
-- **2011 – 2022**: 프리랜서 연출가 (<봇>, <망토> 등)
+- **2015 – 2016**: 서울연극센터 &lt;10분희곡페스티벌&gt; 낭독공연 연출
+- **2011 – 2022**: 프리랜서 연출가 (&lt;봇&gt;, &lt;망토&gt; 등)
 
 ---
 
 ## 🗞️ PRESS / ARTICLE (비평 및 기고)
 
-- [**<한국연극>** 2022.08 사막별의 오로라 ‘더스트’ 리뷰](http://ktheater.bravod.co.kr/sub2_1_view.html?year=2022&pid=10901&page=&search_type=&search_txt=)
-- [<우란피플> **비인간 곁의 기술 인간, 권세미 크리에이티브 테크놀로지스트**](http://www.wooranfdn.org/notice/inside_view.jsp?idx=210)
-- [<공연과이론> 2019.가을호 : 친구로서의 페미니즘 - 권세미 연출가와의 만남](https://nightgliders.postype.com/post/8576787)
+- [**&lt;한국연극&gt;** 2022.08 사막별의 오로라 ‘더스트’ 리뷰](http://ktheater.bravod.co.kr/sub2_1_view.html?year=2022&pid=10901&page=&search_type=&search_txt=)
+- [&lt;우란피플&gt; **비인간 곁의 기술 인간, 권세미 크리에이티브 테크놀로지스트**](http://www.wooranfdn.org/notice/inside_view.jsp?idx=210)
+- [&lt;공연과이론&gt; 2019.가을호 : 친구로서의 페미니즘 - 권세미 연출가와의 만남](https://nightgliders.postype.com/post/8576787)
 - [(19.11.14) 살아있다는 감각에 집중하라, ‘산책자의 행복’](http://m.kyeongin.com/view.php?key=20191113010004178)
 - [(17.11.19) 실체없는 괴물, 혹은 시선과 마주하기](https://www.sfac.or.kr/site/theater/WZ020400/webzine_view.do?wtIdx=11488)
 - [‘이미 선택된 좌석입니까?’-연극평론집단 ‘시선’ 수다회](https://actmediact.tistory.com/1348)
-- [**<공연과이론>** 2017.겨울호 내밀하고 은밀한 시선을 위하여 ‘Makeup to wake up’](https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE07295490)
+- [**&lt;공연과이론&gt;** 2017.겨울호 내밀하고 은밀한 시선을 위하여 ‘Makeup to wake up’](https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE07295490)
 
 ---
 
@@ -89,5 +89,3 @@ Grounded in humanistic inquiry and theatrical grammar, he employs technology as 
 ---
 
 {% include gallery id="gallery" caption="표지 및 속지 이미지" %}
-
----
