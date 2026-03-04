@@ -80,6 +80,8 @@ gallery:
       <li>관객의 선택을 통해 스토리나 행위가 변경되거나 제어</li>
     </ul>
   </div>
+</div>
+<div class="grid__wrapper">
   <div class="grid__item" style="padding: 1rem; border: 1px solid #eee; border-radius: 8px; margin-bottom: 1rem;">
     <h3>VR 이머시브 연극</h3>
     <ul style="font-size: 0.9rem;">
