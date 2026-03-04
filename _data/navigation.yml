@@ -7,12 +7,10 @@ main:
   - title: "PROJECTS"
     url: /projects/
     subcategories: 
-      - title: "Research"
-        url: /projects/research/
       - title: "Arts"
         url: /projects/arts/
-      - title: "Media"
-        url: /projects/
+      - title: "Research"
+        url: /projects/research/
   - title: "NEWS"
     url: /news/
   - title: "CONTACT"
