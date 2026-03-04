@@ -142,4 +142,4 @@ gallery:
 
 ---
 
-{% include gallery id="gallery" caption="〈희미하고 불쾌한 타인들〉 공연 및 디자인 이미지" %}
+{% include gallery id="gallery" class="half" caption="〈희미하고 불쾌한 타인들〉 공연 및 디자인 이미지" %}
