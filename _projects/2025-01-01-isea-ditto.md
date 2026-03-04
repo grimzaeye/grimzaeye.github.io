@@ -28,9 +28,9 @@ gallery:
 
 ## Paper Abstract
 
-**Ditto: A Artificial Entity - Engaging with Historical Memory through an AI Conversational Agent**
-*Semi Kwon, Dasol Lee, Jusub Kim*  
-*Department of Art&Technology, Sogang University, Seoul, Korea*  
+<p><strong>Ditto: A Artificial Entity - Engaging with Historical Memory through an AI Conversational Agent</strong><br />
+<em>Semi Kwon, Dasol Lee, Jusub Kim</em><br />
+<em>Department of Art&Technology, Sogang University, Seoul, Korea</em></p>
 
 
 **Abstract**  
