@@ -80,8 +80,6 @@ gallery:
       <li>관객의 선택을 통해 스토리나 행위가 변경되거나 제어</li>
     </ul>
   </div>
-</div>
-<div class="grid__wrapper">
   <div class="grid__item" style="padding: 1rem; border: 1px solid #eee; border-radius: 8px; margin-bottom: 1rem;">
     <h3>VR 이머시브 연극</h3>
     <ul style="font-size: 0.9rem;">
@@ -107,13 +105,6 @@ gallery:
 센터의 설계자 유진과, 끝내 반대하는 지호. 두 사람의 균열 속에서, 관객은 직접 선택하고 탐험하며 지호가 남긴 관리자코드의 흔적을 따라가야 한다.
 
 > **글리치(Glitch)**: 디지털 시스템의 일시적인 오류나 예상치 못한 고장을 의미하는 용어. 이 극에서도 가상세계에서 일어나는 뒤틀림 및 오류를 의미한다.
-
----
-
-## Audience Guide
-- 본 공연은 메타퀘스트 HMD(head mounted display)를 착용하고 참여하는 공연입니다.
-- 안경을 착용하실 수 있으나 가능하면 **렌즈 착용**을 권합니다.
-- VR(가상현실) 콘텐츠의 특성상 3D 멀미가 발생할 수 있습니다.
 
 ---
 
