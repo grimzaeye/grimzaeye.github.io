@@ -29,7 +29,7 @@ gallery:
 **Ditto: A Artificial Entity - Engaging with Historical Memory through an AI Conversational Agent**
 *Semi Kwon, Dasol Lee, Jusub Kim*  
 *Department of Art&Technology, Sogang University, Seoul, Korea*  
-*(semikwon@sogang.ac.kr, dasollee@sogang.ac.kr, jusub@sogang.ac.kr)*
+
 
 **Abstract**  
 Ditto: Artificial Entity is a digital interactive installation that transforms the testimonies of “comfort women” survivors into empathetic, real-time dialogues for contemporary audiences. Using a generative AI character, the project preserves survivors’ voices and connects historical memory with present-day viewers.
