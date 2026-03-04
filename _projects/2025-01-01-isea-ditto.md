@@ -24,8 +24,10 @@ gallery:
 ---
 
 > 생존자들의 파편화된 증언을 바탕으로, 동시대 관객과 실시간으로 대화하며 '위안부' 역사적 기억에 공감하는 AI 에이전트 **'Ditto'**에 관한 인터랙티브 아트 프로젝트입니다.
+---
 
 ## Paper Abstract
+
 **Ditto: A Artificial Entity - Engaging with Historical Memory through an AI Conversational Agent**
 *Semi Kwon, Dasol Lee, Jusub Kim*  
 *Department of Art&Technology, Sogang University, Seoul, Korea*  
