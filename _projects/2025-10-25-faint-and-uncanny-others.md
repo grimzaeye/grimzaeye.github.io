@@ -63,34 +63,34 @@ gallery:
 
 ## Key Concept
 
-<div class="grid__wrapper">
-  <div class="grid__item" style="padding: 1rem; border: 1px solid #eee; border-radius: 8px; margin-bottom: 1rem;">
-    <h3>아우구스또 보알 포럼연극</h3>
-    <ul style="font-size: 0.9rem;">
+<div style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 1rem; margin-bottom: 2rem;">
+  <div style="padding: 1.5rem; border: 1px solid #e2e8f0; border-radius: 8px;">
+    <h4 style="margin-top: 0;">아우구스또 보알 포럼연극</h4>
+    <ul style="margin-bottom: 0;">
       <li>관객이 극에 비판적으로 개입하여 극의 내용을 바꾸는 연기기법</li>
       <li>관객이 토론을 통해 극의 핵심적인 내러티브를 변화시킴</li>
       <li>관객의 변화와 참여를 촉진</li>
     </ul>
   </div>
-  <div class="grid__item" style="padding: 1rem; border: 1px solid #eee; border-radius: 8px; margin-bottom: 1rem;">
-    <h3>인터랙티브 스토리텔링</h3>
-    <ul style="font-size: 0.9rem;">
+  <div style="padding: 1.5rem; border: 1px solid #e2e8f0; border-radius: 8px;">
+    <h4 style="margin-top: 0;">인터랙티브 스토리텔링</h4>
+    <ul style="margin-bottom: 0;">
       <li>컴퓨터의 상호작용성을 이용한 서사의 한 형태</li>
       <li>관객 = 방관자가 아닌 조작자 또는 참여자의 위치</li>
       <li>관객의 선택을 통해 스토리나 행위가 변경되거나 제어</li>
     </ul>
   </div>
-  <div class="grid__item" style="padding: 1rem; border: 1px solid #eee; border-radius: 8px; margin-bottom: 1rem;">
-    <h3>VR 이머시브 연극</h3>
-    <ul style="font-size: 0.9rem;">
+  <div style="padding: 1.5rem; border: 1px solid #e2e8f0; border-radius: 8px;">
+    <h4 style="margin-top: 0;">VR 이머시브 연극</h4>
+    <ul style="margin-bottom: 0;">
       <li>몰입적, 관객 참여형 공연 형식 실험</li>
       <li>물질적 제약이 없고, 관객의 직접적인 개입 가능</li>
       <li>팬데믹 상황에서 대안적 공연의 형태로 대두</li>
     </ul>
   </div>
-  <div class="grid__item" style="padding: 1rem; border: 1px solid #eee; border-radius: 8px; margin-bottom: 1rem;">
-    <h3>디지털 연극성</h3>
-    <ul style="font-size: 0.9rem;">
+  <div style="padding: 1.5rem; border: 1px solid #e2e8f0; border-radius: 8px;">
+    <h4 style="margin-top: 0;">디지털 연극성</h4>
+    <ul style="margin-bottom: 0;">
       <li>디지털 기술 환경에서 관객 참여를 중심으로 한 새로운 형식의 공연 탐색 필요</li>
       <li>디지털 대리자(Avatar)를 통해 상호작용하는 ‘디지털 연극성’의 측면</li>
     </ul>
