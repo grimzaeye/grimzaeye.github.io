@@ -15,7 +15,7 @@
   {% endif %}
   {% endif %}
   {% if page.category %}
-  {% assign same_category = site.documents | where: "category", page.category %}
+  {% assign same_category = site.documents | where: "category", page.category | sort: "date" | reverse %}
   {% if same_category.size > 1 %}
   <div style="margin-top: 2rem;">
     <h3 class="nav__title"
