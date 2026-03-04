@@ -24,9 +24,6 @@ gallery:
   - url: /assets/images/portfolio/2025-uncanny-others-03.jpg
     image_path: /assets/images/portfolio/2025-uncanny-others-03.jpg
     alt: "희미하고 불쾌한 타인들 작품 사진 3"
-  - url: /assets/images/portfolio/2025-uncanny-others-04.jpg
-    image_path: /assets/images/portfolio/2025-uncanny-others-04.jpg
-    alt: "희미하고 불쾌한 타인들 작품 사진 4"
   - url: /assets/images/portfolio/2025-uncanny-others-05.jpg
     image_path: /assets/images/portfolio/2025-uncanny-others-05.jpg
     alt: "희미하고 불쾌한 타인들 작품 사진 5"
@@ -42,9 +39,6 @@ gallery:
   - url: /assets/images/portfolio/2025-uncanny-others-09.jpg
     image_path: /assets/images/portfolio/2025-uncanny-others-09.jpg
     alt: "희미하고 불쾌한 타인들 작품 사진 9"
-  - url: /assets/images/portfolio/2025-uncanny-others-10.jpg
-    image_path: /assets/images/portfolio/2025-uncanny-others-10.jpg
-    alt: "희미하고 불쾌한 타인들 작품 사진 10"
 ---
 
 <div class="video-container" style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; margin-bottom: 2rem;">
@@ -60,6 +54,8 @@ gallery:
 관객은 ‘관계 재활 센터’의 참여자로 입소하여 타인을 파편 정보로 해석하고, 감정으로 추측하며, 선택하고, 오해하고, 단절을 경험합니다. 관계의 시도는 언제나 어긋나지만 결국 마주하게 되는 것은 그 누구도 완전히 이해할 수 없지만 그럼에도 연결되어 있다는 희미한 감각입니다.
 
 ---
+
+![희미하고 불쾌한 타인들](/assets/images/portfolio/2025-uncanny-others-04.jpg){: .align-center}
 
 ## Key Concept
 
@@ -107,6 +103,8 @@ gallery:
 > **글리치(Glitch)**: 디지털 시스템의 일시적인 오류나 예상치 못한 고장을 의미하는 용어. 이 극에서도 가상세계에서 일어나는 뒤틀림 및 오류를 의미한다.
 
 ---
+
+![희미하고 불쾌한 타인들](/assets/images/portfolio/2025-uncanny-others-10.jpg){: .align-center}
 
 ## Director Profile: 권세미 (Sami Kwon)
 권세미는 연극 연출가이자 드라마터그로서, 늘 당연한 것에 질문을 던지는 시선을 무대에 불러온다. 여성과 몸의 감각, 젠더와 정체성, 도시의 빈곤과 젊은 세대의 절망 등 사회적 현실을 관통하는 주제를 탐구하면서도 이를 단순한 재현이 아닌 공동창작과 과정 중심의 실험으로 풀어내는 것이 작업의 특징이다. 최근에는 AI, VR, 게임엔진 등 뉴미디어 기술을 연극에 접목하는 실험을 이어가며, 미래 극장의 가능성을 탐구하고 있다. 그는 이번 공연에서 뉴미디어를 매개로 낯선 방식으로 타인을 마주하게 하는 공간을 만들어낸다.
