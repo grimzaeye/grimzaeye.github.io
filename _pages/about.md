@@ -30,7 +30,6 @@ pagenator: false
   <figcaption>Semi Kwon</figcaption>
 </figure> 
 
-### 🇰🇷 국문
 
 권세미는 서울대학교 미학과를 거쳐 한국예술종합학교에서 연극 연출을, 서강대학교에서 Art & Technology를 전공한 공연 창작자이다. 그는 젠더와 섹슈얼리티, 그리고 기술이 인간의 관계와 극장의 구조를 어떻게 재구성하는지에 관심을 두고 작업해 왔다.
 
@@ -40,7 +39,7 @@ pagenator: false
 
 ---
 
-### 🇺🇸 English
+
 
 Kwon Semi is a performance creator who studied Aesthetics at Seoul National University, Theatre Directing at Korea National University of Arts, and Art & Technology at Sogang University. His work explores how gender, sexuality, and technology reconfigure human relationships and the structures of the theatre.
 
@@ -52,7 +51,7 @@ Grounded in humanistic inquiry and theatrical grammar, he employs technology as 
 
 ## 🎓 EDUCATION
 
-- **현재**: 서강대학교 일반대학원 Art & Technology 석사
+- **2025**: 서강대학교 일반대학원 Art & Technology 석사
 - **2011**: 한국예술종합학교 연극원 연출과 전문사 졸업 (M.F.A)
 - **2006**: 서울대학교 인문대학 미학과 졸업 (B.A)
 
@@ -60,14 +59,99 @@ Grounded in humanistic inquiry and theatrical grammar, he employs technology as 
 
 ## 💼 WORK EXPERIENCE
 
+- **2011 – 현재**: 프리랜서 연출가 (&lt;봇&gt;, &lt;망토&gt; 등)
+- **2016 – 현재**: 공동창작집단 ‘사막별의오로라’ 창작멤버 및 드라마터그
 - **현재**: 독립미디어연구소 편집위원
 - **2017 – 2022**: 영상미디어센터 미디액트(MediAct) 전략사업팀장
     *(지역 공동체 미디어 지원 및 마을미디어 생태계 조성 사업 운영)*
-- **2016 – 2022**: 공동창작집단 ‘사막별의오로라’ 창작멤버 및 드라마터그
-- **2015 – 2016**: 서울연극센터 &lt;10분희곡페스티벌&gt; 낭독공연 연출
-- **2011 – 2022**: 프리랜서 연출가 (&lt;봇&gt;, &lt;망토&gt; 등)
+- **2011** : 국립극단 '소년이 그랬다' 지역순회공연 무대감독
 
 ---
+
+## 🎭 ARTISTIC PROJECTS (연도별 역순)
+
+### 2025
+
+**희미하고 불쾌한 타인들** *(작, 연출, 영상디자인)*
+
+### 2023
+
+**비비비** *(협력 아티스트, 버츄얼 휴먼 디자인)*
+
+**The Vacance** *(연출, Unreal Engine Development)*
+
+**소녀램프라디오** *(VR 영화 드라마터그)*
+
+---
+
+### 2022
+
+**더스트** *(영상디자인, 드라마터그, 각색)*
+
+---
+
+### 2019
+
+**망토** *(작, 연출)*
+
+**산책자의 행복** *(드라마터그)*
+
+**Makeup to Wake Up 2** *(공동창작, 드라마터그)*
+
+---
+
+### 2017
+
+**Makeup to Wake Up 1** *(공동창작, 드라마터그)*
+
+**남은 한조각의 세계** *(드라마터그)*
+
+---
+
+### 2016
+
+**10분희곡페스티벌 낭독공연** *(연출)*
+
+**강박3: 첫경험** *(드라마터그)*
+
+---
+
+### 2015
+
+**봇** *(연출)*
+
+**그럼 끝** *(극작)*
+
+---
+
+### 2014 – 2006
+
+- 길 위의 낙서 프로젝트 *(기획, 2014)*
+- Too Loud To Be Happy *(연출, 2012)*
+- Samba Dees Days *(연출, 2012)*
+- VIA First EP *(보컬, 2010)*
+- 유혹의 기술 1, 2 *(영상연출, 2008)*
+- 무대를 활보하는 여성주의 *(기획, 2006)*
+
+---
+
+## 🔬 RESEARCH & ACADEMIC (연도별 역순)
+
+### 2025
+
+- ISEA 2025 Demonstration: *Ditto: Artificial Entity – Engaging with Historical Memory through an AI Conversational Agent*
+- [Thesis] LLM 기반 희곡 분석을 통한 Actor AI 구현
+
+### 2024
+
+- ISMAR 2024 DEMO Exhibition: *Audyssey*
+- HCI Creative Award: *게으르미AI*
+
+### 2023
+
+- HCI Creative Award: *Play with AI*
+- *Find Room: VR Content for Spielraum Experience*
+- 2024 CICA 실험영상 전시 참여 (*The Vacance*)
 
 ## 🗞️ PRESS / ARTICLE (비평 및 기고)
 
