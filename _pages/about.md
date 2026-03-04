@@ -22,7 +22,7 @@ pagenator: false
 ---
 
 
-## 🧾 BIO (자기소개)
+## BIO
 
 
 <figure style="width: 300px" class="align-right">
@@ -49,7 +49,7 @@ Grounded in humanistic inquiry and theatrical grammar, he employs technology as 
 
 ---
 
-## 🎓 EDUCATION
+##  EDUCATION
 
 - **2025**: 서강대학교 일반대학원 Art & Technology 석사
 - **2011**: 한국예술종합학교 연극원 연출과 전문사 졸업 (M.F.A)
@@ -57,7 +57,7 @@ Grounded in humanistic inquiry and theatrical grammar, he employs technology as 
 
 ---
 
-## 💼 WORK EXPERIENCE
+##  WORK EXPERIENCE
 
 - **2011 – 현재**: 프리랜서 연출가 (&lt;봇&gt;, &lt;망토&gt; 등)
 - **2016 – 현재**: 공동창작집단 ‘사막별의오로라’ 창작멤버 및 드라마터그
@@ -68,7 +68,7 @@ Grounded in humanistic inquiry and theatrical grammar, he employs technology as 
 
 ---
 
-## 🎭 ARTISTIC PROJECTS (연도별 역순)
+##  ARTISTIC PROJECTS (연도별 역순)
 
 ### 2025
 
@@ -135,7 +135,7 @@ Grounded in humanistic inquiry and theatrical grammar, he employs technology as 
 
 ---
 
-## 🔬 RESEARCH & ACADEMIC (연도별 역순)
+##  RESEARCH & ACADEMIC (연도별 역순)
 
 ### 2025
 
@@ -153,7 +153,7 @@ Grounded in humanistic inquiry and theatrical grammar, he employs technology as 
 - *Find Room: VR Content for Spielraum Experience*
 - 2024 CICA 실험영상 전시 참여 (*The Vacance*)
 
-## 🗞️ PRESS / ARTICLE (비평 및 기고)
+##  PRESS / ARTICLE (비평 및 기고)
 
 - [**&lt;한국연극&gt;** 2022.08 사막별의 오로라 ‘더스트’ 리뷰](http://ktheater.bravod.co.kr/sub2_1_view.html?year=2022&pid=10901&page=&search_type=&search_txt=)
 - [&lt;우란피플&gt; **비인간 곁의 기술 인간, 권세미 크리에이티브 테크놀로지스트**](http://www.wooranfdn.org/notice/inside_view.jsp?idx=210)
@@ -165,7 +165,7 @@ Grounded in humanistic inquiry and theatrical grammar, he employs technology as 
 
 ---
 
-## 💡 INTERESTS (관심 분야)
+##  INTERESTS (관심 분야)
 
 - **키워드:** 젠더, 소수자, 비정상성, 미래 극장, 공연 기술, 몰입, 참여, 감각의 확장
 - **연구:** 메타버스/VR 아바타 퍼포먼스, XR 공연 연출 및 기술 연구, 볼류메트릭 인물 스캐닝, 배리어프리 몰입 공연 기술(햅틱/웨어러블), 버츄얼 프로덕션 실시간 퍼포먼스, 가상 공간의 지역성 및 시민 콘텐츠 연구.
