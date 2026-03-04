@@ -48,13 +48,13 @@ gallery:
 ## 🎬 Videos
 
 ### Trailer
-<iframe width="100%" height="450" src="https://www.youtube.com/embed/H5iFA6DYUT4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+{% include video id="H5iFA6DYUT4" provider="youtube" %}
 
 ### The Vacance (Main Video)
-<iframe width="100%" height="450" src="https://www.youtube.com/embed/tpbJzIE2aDo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+{% include video id="tpbJzIE2aDo" provider="youtube" %}
 
 ### Making Film
-<iframe width="100%" height="450" src="https://www.youtube.com/embed/GQ_bchTePto" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+{% include video id="GQ_bchTePto" provider="youtube" %}
 
 ---
 
