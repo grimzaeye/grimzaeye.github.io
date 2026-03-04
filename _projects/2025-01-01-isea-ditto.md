@@ -57,4 +57,4 @@ Visitors engage with the AI by touching a hand-shaped sculpture, initiating a pe
 
 ---
 
-{% include gallery id="gallery" class="half" caption="Ditto 프로젝트 전시 및 시각 데이터" %}
+{% include gallery id="gallery" layout="half" caption="Ditto 프로젝트 전시 및 시각 데이터" %}
