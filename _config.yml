@@ -22,7 +22,7 @@ title_separator          : " | "
 subtitle                 :  # site tagline that appears below site title in masthead
 name                     : "Semi Kwon"
 description              : "Play Director, Art &Technology Researcher, Media Activist"
-url                      : "https://grimzaeye.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+url                      : "https://ssems.kr" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : "grimzaeye/grimzaeye.github.io" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : "/assets/images/fallback500x300.png" # path of fallback teaser image, e.g. "/assets/images/500x300.png"
